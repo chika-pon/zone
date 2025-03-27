@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<?php
+$title = 'xxxxxxx';
+$description = '若いうちの挑戦が大きな武器に。学生インターン、中途採用を募集中。未経験歓迎、業界トップクラスの給与、営業スキルが身に付く環境です。';
+?>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title><?php echo $title; ?></title>
+  <meta name="description" content="<?php echo $description; ?>">
+  <meta name="keywords" content="xxxx, インターン, 中途採用, 学生, 2025年, 営業スキル, 未経験">
+  <meta property="og:title" content="xxxxxxx">
+  <meta property="og:description" content="若いうちの挑戦が大きな武器に。学生インターン、中途採用を募集中。未経験歓迎、業界トップクラスの給与、営業スキルが身に付く環境です。">
+
+  <!-- og-image -->
+  <?php
+  $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https://' : 'http://';
+  $host = $_SERVER['HTTP_HOST'];
+
+  // テスト環境と本番環境のOG画像パスを分岐
+  $og_image_path = (strpos($_SERVER['REQUEST_URI'], '/xxx/') === 0) ? '/xxx/assets/img/og-image.jpg' : '/assets/img/og-image.jpg';
+
+  // 最終的なOG画像のURL
+  $og_image_url = $protocol . $host . $og_image_path;
+  ?>
+  <meta property="og:image" content="<?php echo htmlspecialchars($og_image_url, ENT_QUOTES, 'UTF-8'); ?>">
+
+  <!-- ファビコン -->
+  <link rel="icon" sizes="256x256" href="assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon-180x180.png" type="image/png" />
+
+  <!-- Googleフォントを使用しないのであれば削除 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400;500;600;700;800;900&family=en+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Splide -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
