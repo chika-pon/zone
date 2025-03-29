@@ -6,13 +6,13 @@ $description = '若いうちの挑戦が大きな武器に。学生インター�
 ?>
 
 <head>
+<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-  <title><?php echo $title; ?></title>
-  <meta name="description" content="<?php echo $description; ?>">
-  <meta name="keywords" content="xxxx, インターン, 中途採用, 学生, 2025年, 営業スキル, 未経験">
-  <meta property="og:title" content="xxxxxxx">
-  <meta property="og:description" content="若いうちの挑戦が大きな武器に。学生インターン、中途採用を募集中。未経験歓迎、業界トップクラスの給与、営業スキルが身に付く環境です。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ゾーンメンタルコーチング。超集中状態をつくり本番で結果を出す。マンツーマンのセッションで成果。指導実績500名以上。本気の人はやっている。">
+  <title>ゾーンメンタルコーチング - マンツーマンセッションで超集中状態を実現</title>
+  <meta name="keywords" content="ゾーンメンタルコーチング,マンツーマン,集中力,メンタル強化,パフォーマンス向上,コーチング">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- og-image -->
   <?php
@@ -26,10 +26,6 @@ $description = '若いうちの挑戦が大きな武器に。学生インター�
   $og_image_url = $protocol . $host . $og_image_path;
   ?>
   <meta property="og:image" content="<?php echo htmlspecialchars($og_image_url, ENT_QUOTES, 'UTF-8'); ?>">
-
-  <!-- ファビコン -->
-  <link rel="icon" sizes="256x256" href="assets/img/favicon.ico">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon-180x180.png" type="image/png" />
 
   <!-- Googleフォントを使用しないのであれば削除 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
