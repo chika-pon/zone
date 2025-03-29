@@ -33,7 +33,7 @@ if (empty($_SESSION['token'])) {
         </h2>
         <div class="pc-btn01">
           <p class="cta__text cta__text-white">まずは<span>60</span>分で超集中状態を体感</p>
-          <a href="#contact" class="cta__button01">
+          <a href="contact.php" class="cta__button01">
             <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
               decoding="async" loading="lazy" />
           </a>
@@ -50,7 +50,7 @@ if (empty($_SESSION['token'])) {
       <div class="bz-fv bz-01 cta-exist" id="fv">
         <section class="bz-fv__main">
           <h1>
-            <img src="assets/img/sp-logo2.png" class="bz-fv__image" alt="ゾーンメンタルコーチング" width="414"
+            <img src="assets/img/sp-logo.png" class="bz-fv__image" alt="ゾーンメンタルコーチング" width="414"
               height="52" decoding="async" />
           </h1>
           <div>
@@ -82,8 +82,8 @@ if (empty($_SESSION['token'])) {
             </div>
           </div>
           <div class="bz-fv__cta cta">
-            <p class="cta__text">まずは<span>60</span>分で超集中状態を体感</p>
-            <a href="#contact" class="cta__button">
+            <p class="cta__text second-font">\ まずは <span class="highlight"><span class="number">60</span>分</span> で超集中状態を体感 /</p>
+            <a href="contact.php" class="cta__button">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
             </a>
@@ -92,221 +92,243 @@ if (empty($_SESSION['token'])) {
       </div>
       <div class="content01">
         <h2>
-          <img src="assets/img/k01.png" alt="お子様へのサポートも安心" width="270" height="227" loading="lazy"
+          <img src="assets/img/k01.png" alt="お子様へのサポートも安心" width="246" height="105" loading="lazy"
             decoding="async" class="" />
         </h2>
-        <p class="f14 white">メンタルコーチングは大人だけでなく、スポーツを頑張るお子様も成果を実感できるプログラムです。親御様のお悩みもお気軽にご相談ください。</p>
-        <p class="second-font white">毎月1回30分の<br>パパ・ママへのZOOMサポート</p>
+        <p class="p1">メンタルコーチングは大人だけでなく、スポーツを頑張るお子様も成果を実感できるプログラムです。親御様のお悩みもお気軽にご相談ください。</p>
+        <p class="p2 second-font center">毎月1回30分の<br>パパ・ママへのZOOMサポート</p>
       </div>
       <div class="content02">
-        <h2 class="second-font">スポーツをする<br><span>全ての方へ</span></h2>
-        <p class="second-font">本番で力をだせず<span>悩んでませんか？</span></p>
+        <h2 class="second-font center">スポーツをする<br><span>全ての方へ</span></h2>
+        <p class="p1 second-font center">本番で力をだせず<br>悩んでませんか？</p>
         <ul class="content02__items">
           <li class="content02__list">
-            <p>緊張</p>
+            <p class="content02__list-title">緊張</p>
             <div class="content02__item">
               <img src="assets/img/nayami01.jpg" alt="" width="176" height="127" loading="lazy"
                 decoding="async" class="" />
-              <p>大事な試合で<span>緊張</span>しすぎる</p>
+              <p><span class="big">大事な試合で<br><span class="underline white">緊張</span>しすぎる</span></p>
             </div>
           </li>
           <li class="content02__list">
-            <p>ストレス</p>
+            <p class="content02__list-title">ストレス</p>
             <div class="content02__item">
               <img src="assets/img/nayami02.jpg" alt="" width="176" height="127" loading="lazy"
                 decoding="async" class="" />
-              <p>練習や試合に<span>ストレス</span>を感じる</p>
+              <p><span class="big">練習や試合に</span><br><span>ストレス</span>を感じる</p>
             </div>
           </li>
           <li class="content02__list">
-            <p>劣等感</p>
+            <p class="content02__list-title">劣等感</p>
             <div class="content02__item">
               <img src="assets/img/nayami03.jpg" alt="" width="176" height="127" loading="lazy"
                 decoding="async" class="" />
-              <p>他の選手と比べて<span>劣等感</span>を感じる</p>
+              <p>他の選手と比べて<br><span><span class="big">劣等感</span></span>を感じる</p>
             </div>
           </li>
           <li class="content02__list">
-            <p>ミス</p>
+            <p class="content02__list-title">ミス</p>
             <div class="content02__item">
               <img src="assets/img/nayami04.jpg" alt="" width="176" height="127" loading="lazy"
                 decoding="async" class="" />
-              <p>集中力を保てず<span>ミス</span>が増える</p>
+              <p>集中力を保てず<span><span class="big">ミス</span>が増える</span></p>
             </div>
           </li>
         </ul>
       </div>
       <div class="content03">
         <div class="inner">
-          <h2><span>本番</span>で出せる<br>パフォーマンスは<br>
-            <span>メンタル</span>の状態に
-            とても大きく左右されます
+          <h2 class="second-font"><span class="box">本番</span>で出せる<br>パフォーマンスは<br>
+            <span class="underline2">メンタル</span>の状態に<br>とても大きく左右されます
           </h2>
-          <p>つまり、</p>
-          <p><span>不安</span>や<span>緊張</span>が<br>
-            <span>本来の実力</span>を発揮できなく<br>
+          <p class="p1">つまり、</p>
+          <p class="p2"><span class="box-w">不安</span>や<span class="box-w">緊張</span>が<br>集中力を妨げ<br>
+            <span class="underline2">本来の実力</span>を発揮できなく<br>
             させているのです
           </p>
-          <img src="assets/img/k03.png" alt="練習では上手くいくが、試合本番では実力発揮できない" width="356" height="310" loading="lazy"
-            decoding="async" class="" />
+          <div class="k3">
+            <img src="assets/img/k03.png" alt="練習では上手くいくが、試合本番では実力発揮できない" width="356" height="310" loading="lazy"
+              decoding="async" class="" />
+          </div>
         </div>
       </div>
       <div class="content04">
-        <p class="p1">そこで....</p>
-        <p class="p2">ゾーンメンタルコーチング！</p>
-        <h2>「超集中状態」</h2>
-        <p class="p3">を作ることで</p>
-        <p class="p4">ハイパフォーマンスへ導く</p>
-        <img src="assets/img/k04.png" alt="超集中状態のメンタルづくりで力を出し切る" width="414" height="478" loading="lazy"
-          decoding="async" class="" />
-        <p class="p5">ご存知ですか？</p>
-        <p class="p6">
-          <span class="normal">超集中状態</span>（ゾーン）は
-          <span class="highlight">自分で</span>
-          <span class="normal">作れます</span><span class="exclamation">！</span>
-        <p class="p7">※心と体が一体化し、感覚が研ぎ澄まされ、今の活動や行動に没頭している超集中状態（ゾーン）。</p>
-        </p>
-        <img src="assets/img/k05.png" alt="" width="398" height="303" loading="lazy"
-          decoding="async" class="" />
-        <p class="p8">メンタルの知識と理論を知り、心の中にあるブレーキを緩め、自信というアクセルを強く踏むことで作り出すことができるのです！</p>
+        <div class="content04__block">
+          <p class="p1 second-font">そこで....</p>
+          <p class="p2 second-font">ゾーンメンタルコーチング！</p>
+          <h2>超集中状態</h2>
+          <p class="p3 second-font">を作ることで</p>
+          <p class="p4 second-font underline">ハイパフォーマンスへ導く</p>
+          <img src="assets/img/k04.png" alt="超集中状態のメンタルづくりで力を出し切る" width="414" height="478" loading="lazy"
+            decoding="async" class="" />
+        </div>
+        <div class="bg-bk">
+          <p class="p5 second-font center line-gr">ご存知ですか？</p>
+          <h3 class="second-font center">
+            <span class="f30">超集中状態</span> <span class="f26">（ゾーン）は</span><br>
+            <span class="highlight">自分で</span>
+            作れます!
+          </h3>
+          <div class="p6">※心と体が一体化し、感覚が研ぎ澄まされ、今の活動や行動に没頭している超集中状態（ゾーン）。</div>
+          <div class="k5">
+            <img src="assets/img/k05.png" alt="" width="398" height="303" loading="lazy"
+              decoding="async" class="" />
+          </div>
+        </div>
+        <p class="p7"><span class="underline">メンタルの知識</span>と<span class="underline">理論</span>を知り、心の中にあるブレーキを緩め、自信というアクセルを強く踏むことで作り出すことができるのです！</p>
       </div>
       <div class="content05">
-        <p>コーチってどんな人？</p>
-        <img src="assets/img/k06.png" alt="古徳大輔メンタルコーチ" width="331" height="378" loading="lazy"
-          decoding="async" class="" />
-        <p class="p1">古徳大輔<span>メンタルコーチ</span></p>
-        <div>
-          <p>トレーナーとして10年以上活躍</p>
-          <p>選手として25年以上のキャリア</p>
-          <p>子どもから大人まで 500名以上の指導実績</p>
+        <div class="inner content05__inner">
+          <h3 class="second-font center line-gr">コーチってどんな人？</h3>
+          <div class="k6">
+            <img src="assets/img/k06.png" alt="古徳大輔メンタルコーチ" width="331" height="378" loading="lazy"
+              decoding="async" class="" />
+          </div>
+          <div class="content05__name underline-bk">古徳大輔<span>メンタルコーチ</span></div>
+          <div>
+            <div class="content05__block">
+              <p>トレーナーとして10年以上活躍</p>
+              <p>選手として25年以上のキャリア</p>
+              <p>子どもから大人まで 500名以上の指導実績</p>
+            </div>
+          </div>
+          <img src="assets/img/k07.png" alt="Miracrea認定プロメンタルコーチ" width="341" height="146" loading="lazy"
+            decoding="async" class="" />
+          <ul class="content05__list">
+            <li>JLPGA日本女子プロゴルフ協会所属選手指導</li>
+            <li>RISEフライ級ランカー 指導</li>
+            <li>元FIA-F4レーシングドライバー指導</li>
+            <li>ミスユニバース日本大会出場選手指導</li>
+            <li>常磐大学＆茨城県中小企業家同友会
+              「キャリア形成と大学」3期連続講師</li>
+            <li>茨城県立 勝田工業高等学校ラグビー部 指導</li>
+            <li>小学校保健安全委員会 講師</li>
+          </ul>
         </div>
-        <img src="assets/img/k07.png" alt="Miracrea認定プロメンタルコーチ" width="341" height="146" loading="lazy"
-          decoding="async" class="" />
-        <ul>
-          <li>JLPGA日本女子プロゴルフ協会所属選手指導</li>
-          <li>RISEフライ級ランカー 指導</li>
-          <li>元FIA-F4レーシングドライバー指導</li>
-          <li>ミスユニバース日本大会出場選手指導</li>
-          <li>常磐大学＆茨城県中小企業家同友会
-            「キャリア形成と大学」3期連続講師</li>
-          <li>茨城県立 勝田工業高等学校ラグビー部 指導</li>
-          <li>小学校保健安全委員会 講師</li>
-        </ul>
-        <p>\ 水戸市長 表敬訪問 /</p>
-        <img src="assets/img/k08.png" alt="" width="413" height="174" loading="lazy"
-          decoding="async" class="" />
+        <p class="p1 center">\ 水戸市長 表敬訪問 /</p>
+        <div class="k8">
+          <img src="assets/img/k08.jpg" alt="" width="413" height="174" loading="lazy"
+            decoding="async" class="" />
+        </div>
       </div>
       <div class="content06">
-        <p class="second-font center">でもどうやって<br>最高の結果へ導くの</p>
-        <div>
+        <div class="content06__q second-font center">？</div>
+        <h3 class="second-font center">でもどうやって<br>最高の結果へ導くの</h3>
+        <div class="k9">
           <img src="assets/img/k09.jpg" alt="" width="342" height="260" loading="lazy"
             decoding="async" class="" />
         </div>
       </div>
       <section class="step">
-        <div class="inner">
+        <div class="step__inner">
           <p class="second-font center">NLP理論に基づく<br>ゾーンメンタルコーチング</p>
-          <h3>基本ステップ</h3>
+          <h2 class="second-font center">基本ステップ</h2>
           <div class="step__items">
-            <p>1回60分の完全マンツーマン</p>
-            <p>メンタルコーチング<br>
-              セッション</p>
+            <p class="p1 second-font underline-bk">1回60分の完全マンツーマン</p>
+            <h3 class="second-font">メンタルコーチング<br>
+              セッション</h3>
             <div class="step__item">
-              <div>
+              <div class="step__item-num">
                 <img src="assets/img/step01.png" alt="step01" width="88" height="27" loading="lazy"
                   decoding="async" class="" />
               </div>
-              <p class="step__item-title">達成したい成果を明確に設定</p>
-              <p>短期的な目標から<br>
-                長期的なビジョンまで<br>
-                僕が実現まで導きます！</p>
-              <div>
-                <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
-                  decoding="async" class="" />
+              <p class="step__item-title second-font">達成したい成果を明確に設定</p>
+              <div class="step__item-flex">
+                <p class="step__item-text text01">短期的な目標から<br>
+                  長期的なビジョンまで<br>
+                  僕が実現まで導きます！</p>
+                <div class="step__item-img">
+                  <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
+                    decoding="async" class="" />
+                </div>
               </div>
             </div>
             <div class="step__item">
-              <div>
+              <div class="step__item-num">
                 <img src="assets/img/step02.png" alt="step02" width="88" height="27" loading="lazy"
                   decoding="async" class="" />
               </div>
-              <p class="step__item-title">現状と理想の状態を把握し<br>
+              <p class="step__item-title second-font">現状と理想の状態を把握し<br>
                 課題点を洗い出していく</p>
-              <p>自分の思考パターンや<br>
-                感情の動きがしっかり分かる
-                ので、新たな気づきに<br>
-                ハッとするでしょう！</p>
-              <div>
-                <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
-                  decoding="async" class="" />
+              <div class="step__item-flex">
+                <p class="step__item-text text02">自分の思考パターンや<br>
+                  感情の動きがしっかり分かる<br>ので、新たな気づきに<br>
+                  ハッとするでしょう！</p>
+                <div class="step__item-img">
+                  <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
+                    decoding="async" class="" />
+                </div>
               </div>
             </div>
             <div class="step__item">
-              <div>
+              <div class="step__item-num">
                 <img src="assets/img/step03.png" alt="step03" width="88" height="27" loading="lazy"
                   decoding="async" class="" />
               </div>
-              <p class="step__item-title">メンタルスキルを体得し<br>
+              <p class="step__item-title second-font">メンタルスキルを体得し<br>
                 心を整え練習や本番に繋げる</p>
               <div class="step03__item">
-                <p>NLP理論を用いた<br>
-                  メンタルスキルの一例をご紹介</p>
-                <ul>
-                  <li>プレッシャー管理
+                <div class="step03__item-block">
+                  <p>NLP理論を用いた<br>
+                    メンタルスキルの一例をご紹介</p>
+                  <ul>
+                    <li>プレッシャー管理</li>
                     <p>試合前の緊張や不安を効果的にコントロールする方法を学びます。</p>
-                  </li>
-                  <li>集中力維持
+                    <li>集中力維持</li>
                     <p>競技中に持続的な集中力を維持するためのテクニックを習得します</p>
-                  </li>
-                  <li>自信を育てる
+                    <li>自信を育てる</li>
                     <p>自己肯定感を高め、困難な状況でも自信を持って力を発揮できるメンタルを整えます。</p>
-                  </li>
-                </ul>
-
+                  </ul>
+                </div>
               </div>
-              <p>｢気合で頑張れ！｣<br>
-                ｢集中しろ！｣ <br>
-                ｢自信を持て！｣では、<br>
-                結果が中々出せないことが<br>
-                あります。
-                自分の心と成果への繋がりを論理的に理解することが重要です！</p>
-              <div>
-                <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
-                  decoding="async" class="" />
+              <div class="step__item-flex">
+                <p class="step__item-text text03">｢気合で頑張れ！｣<br>
+                  ｢集中しろ！｣ <br>
+                  ｢自信を持て！｣では、<br>
+                  結果が中々出せないことが<br>
+                  あります。<br>
+                  自分の心と成果への繋がりを<br>論理的に理解することが重要<br>です！</p>
+                <div class="step__item-img">
+                  <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
+                    decoding="async" class="" />
+                </div>
               </div>
             </div>
           </div>
-          <p class="step__text"><span>さらに</span><br>セッションだけじゃない！</p>
+          <p class="step__text second-font center"><span>さらに</span><br>セッションだけじゃない！</p>
         </div>
       </section>
-      <section class="suppport">
-        <div class="inner">
-          <h2><span>アスリートとしての成功を支える</span>
-            <span>ゾーンコーチングだけの</span>
-            特別サポート
+      <section class="support">
+        <div class="support__inner">
+          <h2 class="second-font"><span class="small">アスリートとしての成功を支える</span><br>
+           ゾーンコーチングだけの
+           <span class="gr">特別サポート</span>
           </h2>
-          <div class="suppport__items">
-            <div class="suppport__item">
-              <h3>LINEで<br>
-                無制限サポート</h3>
-              <p><span>試合前の緊張時</span><span>試合後の振り返り</span><br>
-                <span>コーチングに関する質問や相談</span>など
-              </p>
-              <div>
+          <div class="support__items">
+            <div class="support__item">
+              <div class="support__item-block">
+                <h3 class="second-font">LINEで<br>
+                  無制限サポート</h3>
+                <p class="second-font"><span>試合前の緊張時</span><span>試合後の振り返り</span><br>
+                  <span>コーチングに関する質問や相談</span>など
+                </p>
+              </div>
+              <div class="k12">
                 <img src="assets/img/k12.png" alt="古徳大輔コーチとLINEでの相談の様子" width="329" height="309" loading="lazy"
                   decoding="async" class="" />
               </div>
             </div>
-            <div class="suppport__item">
-              <h3>人間関係の相談</h3>
+            <div class="support__item">
+              <h3 class="second-font">人間関係の相談</h3>
               <p>心の負担を軽減し、より良い環境で力を発揮できるよう、周りとの人間関係に関するお悩みも気軽に相談できます。</p>
               <div>
                 <img src="assets/img/k13.png" alt="監督の指導方法に納得がいかない、チームメンバーと価値観が合わない、家族からのプレッシャーがつらい" width="329" height="309" loading="lazy"
                   decoding="async" class="" />
               </div>
             </div>
-            <div class="suppport__item">
-              <h3>トレーニング・食事相談</h3>
+            <div 
+            class="support__item">
+              <h3 class="second-font h3-3">トレーニング・食事相談</h3>
               <p>パーソナルトレーナーとしても多くの実績を持つコーチが、実践に基づく効果的なトレーニング方法や、減量・増量に適した食事プランについてアドバイスします。</p>
               <div>
                 <img src="assets/img/k14.jpg" alt="" width="308" height="148" loading="lazy"
@@ -381,7 +403,7 @@ if (empty($_SESSION['token'])) {
           </div>
           <div class="cta01_cta cta">
             <p class="cta__text cta__text-white">まずは<span>60</span>分で超集中状態を体感</p>
-            <a href="#contact" class="cta__button01">
+            <a href="contact.php" class="cta__button01">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
             </a>
@@ -642,7 +664,7 @@ if (empty($_SESSION['token'])) {
           </div>
           <div class="cta01_cta cta">
             <p class="cta__text cta__text-white">まずは<span>60</span>分で超集中状態を体感</p>
-            <a href="#contact" class="cta__button01">
+            <a href="contact.php" class="cta__button01">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
             </a>
@@ -671,19 +693,27 @@ if (empty($_SESSION['token'])) {
           </div>
         </div>
       </section>
-      <!-- フッター -->
-      <footer class="bz-footer">
-        <div class="bz-footer__inner inner">
-          <div class="bz-footer__copyright">
-            &copy;
-            <script>
-              TYnow = new Date();
-              document.write(TYnow.getFullYear());
-            </script>
-            ZONE Coaching Co., Ltd. All Rights Reserved.
-          </div>
+      <!-- 固定ボタン -->
+      <!-- <div class="kotei-btn">
+  <a href="contact.php">
+    <img src="assets/img/cta-button01.png" class="bz-fv__entry" alt="Entry 今すぐ応募" width="373" height="102"
+      decoding="async" loading="lazy" />
+  </a>
+</div> -->
+    </main>
+    <!-- フッター -->
+    <footer class="bz-footer">
+      <div class="bz-footer__inner inner">
+        <div class="bz-footer__copyright">
+          &copy;
+          <script>
+            TYnow = new Date();
+            document.write(TYnow.getFullYear());
+          </script>
+          ZONE Coaching Co., Ltd. All Rights Reserved.
         </div>
-      </footer>
+      </div>
+    </footer>
   </div>
 </div>
 
@@ -1732,12 +1762,12 @@ if (empty($_SESSION['token'])) {
 </section>
 
 <!-- 固定ボタン -->
-<div class="kotei-btn">
+<!-- <div class="kotei-btn">
   <a href="#contact">
     <img src="assets/img/cta-button01.png" class="bz-fv__entry" alt="Entry 今すぐ応募" width="373" height="102"
       decoding="async" loading="lazy" />
   </a>
-</div>
+</div> -->
 </main>
 
 <!-- フッター -->
