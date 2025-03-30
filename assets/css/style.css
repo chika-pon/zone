@@ -1482,8 +1482,9 @@ ul {
   aspect-ratio: 138/190;
   /* max-width: 138px; */
   width: 33vw;
-  top: -20%;
-  right: -20%;
+  top: -2%;
+  right: -8%;
+  z-index: -1;
 }
 
 .features::after {
@@ -1495,6 +1496,7 @@ ul {
   width: 40vw;
   top: 13%;
   left: -11%;
+  z-index: -1;
 }
 
 .features__inner {
@@ -1688,7 +1690,7 @@ ul {
   aspect-ratio: 273/17;
   /* max-width: 273px; */
   width: 81vw;
-  bottom: -60%;
+  bottom: -21%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1754,6 +1756,7 @@ ul {
 }
 
 .voice__button {
+  margin-top: 35px;
   position: relative;
   padding: 15px 58px;
   color: #fff;
@@ -1761,6 +1764,8 @@ ul {
   line-height: 140%;
   border: 1px solid #139E40;
   background-color: #139E40;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .voice__button:after {
@@ -1772,6 +1777,12 @@ ul {
   top: 50%;
   transform: translateY(-50%);
   right: 10%;
+}
+.hidden {
+  display: none;
+}
+.hidden.is-open {
+  display: block;
 }
 
 /* コーチ紹介 */
@@ -1799,6 +1810,10 @@ ul {
   margin-top: 33.2px;
 }
 
+.coach__img  img {
+  border-radius: 1.875rem;
+}
+
 .coach__info {
   color: #fff;
   font-size: 32px;
@@ -1817,6 +1832,7 @@ ul {
 }
 
 .coach__info .en {
+  font-style: italic;
   color: rgba(255, 255, 255, 0.32);
   font-size: 18px;
   font-weight: 700;
@@ -1832,7 +1848,135 @@ ul {
   line-height: 150%;
 }
 
-/* アコーディオン */
+.card {
+  width: 100%;
+  border-radius: 13px;
+  border-radius: 0.8125rem;
+  background-color: #fff;
+  box-shadow: 0 4px 34px rgba(0, 0, 0, 0.1);
+  padding: 17px 17px 18px;
+  padding: 1.0625rem 1.0625rem 1.125rem;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 337/223;
+  object-fit: cover;
+  height: auto;
+}
+
+.card__title {
+  font-size: 17px;
+  font-size: 1.0625rem;
+  font-weight: bold;
+  line-height: calc(24 / 17);
+  letter-spacing: 0.04em;
+  color: var(--color__txt);
+  margin-top: 14px;
+  margin-top: 0.875rem;
+  padding-left: 12px;
+  padding-left: 0.75rem;
+}
+
+.card__content {
+  margin-top: 9px;
+  margin-top: 0.5625rem;
+  padding-right: 7px;
+}
+
+.card__text {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: calc(24 / 15);
+  letter-spacing: 0.04em;
+  padding-left: 14px;
+  padding-left: 0.875rem;
+  text-align: justify;
+}
+
+.card__content-hide {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card__content-hide.is-open {
+  display: block;
+  opacity: 1;
+}
+
+/* .card__text {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s, height 0.3s;
+  height: 0;
+}
+
+.card__text.is-open {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  transition: visibility 0s, opacity 0.3s, height 0.3s;
+}
+
+.card__text-hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s, height 0.3s;
+  text-align: justify;
+  height: 0;
+}
+
+.card__text-hide.is-open {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  transition: visibility 0s, opacity 0.3s, height 0.3s;
+}
+.card__open {
+  cursor: pointer;
+  border: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: calc(24 / 15);
+  letter-spacing: 0.04em;
+}
+
+.card .line {
+  text-decoration: underline;
+}
+
+.card__open.is-open {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+}
+
+.card__close {
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+  transition: visibility 0s, opacity 0.3s;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: calc(24 / 15);
+  letter-spacing: 0.04em;
+}
+
+.card__close.is-open {
+  visibility: visible;
+  opacity: 1;
+  border: none;
+  display: block;
+  margin-left: auto;
+} */
+
+
+/* メッセージ*/
 .message {
   position: relative;
   margin-top: 38px;
@@ -1844,7 +1988,7 @@ ul {
 }
 
 .message:after {
-  position: relative;
+  position: absolute;
   content: "";
   background-color: rgba(255, 255, 255, 0.3);
   width: 180px;
@@ -1914,10 +2058,10 @@ ul {
   background-color: #E7F7EB;
 }
 
-/* .faq__item+.faq__item {
-  margin-top: 11px;
-  margin-top: 0.6875rem;
-} */
+.faq__item+.faq__item {
+  margin-top: 23px;
+  /* margin-top: 0.6875rem; */
+} 
 .faq__item::before {
   position: absolute;
   content: "";
@@ -1926,8 +2070,8 @@ ul {
   aspect-ratio: 40 / 40;
   max-width: 40px;
   width: 9vw;
-  top: -2%;
-  left: -2%;
+  top: -8%;
+  left: -5%;
 }
 
 
@@ -1974,8 +2118,6 @@ ul {
 
 .cta__button02 {
   position: relative;
-  max-width: 368px;
-  width: 88%;
   padding: 15px 48px 25px 14px;
   display: flex;
   align-items: center;
@@ -1999,7 +2141,7 @@ ul {
 
 .cta__line {
   max-width: 59.22px;
-  width: 14%;
+  width: 19%;
 }
 
 .cta__line-text {
@@ -2010,6 +2152,7 @@ ul {
   font-weight: 700;
   line-height: 120%;
   letter-spacing: 0.06em;
+  white-space: nowrap;
 }
 
 .cta__line-text span {
@@ -2029,7 +2172,7 @@ ul {
     border-right: 2.3px solid #fff;
     top: 50%;
     transform: translateY(-50%) rotate(45deg); /* 45度回転させて ">" の形に */
-    right: -18%;
+    right: -12%;
   }
 
 

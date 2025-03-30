@@ -406,7 +406,7 @@ if (empty($_SESSION['token'])) {
             </div>
           </div>
           <div class="cta01_cta cta">
-            <p class="second-font cta__text cta__text-white">\ まずは<span class="highlight"><span class="num">60</span>分</span>で超集中状態を体感 /</p>
+            <p class="second-font cta__text cta__text-white">\ まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感 /</p>
             <a href="contact.php" class="cta__button01">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
@@ -579,15 +579,59 @@ if (empty($_SESSION['token'])) {
               </div>
             </div>
           </div>
+        </div>
           <!-- アコーディオン -->
           <section class="hidden">
-            <div class="inner">
-
+            <div class="voice__inner">
+              <div class="voice__items">
+                <div class="voice__item">
+                  <div>
+                    <img src="assets/img/voice01.png" alt="空手、中学生、小林将人様" width="387" height="269" loading="lazy"
+                      decoding="async" class="" />
+                  </div>
+                  <div class="voice__flex">
+                    <div class="voice__flex-img">
+                      <img src="assets/img/icon-hito.png" alt="" width="40" height="52" loading="lazy"
+                        decoding="async" class="" />
+                    </div>
+                    <div class="voice__title">アコーディオン<br>
+                      優勝する事ができました！</div>
+                  </div>
+                  <div class="voice__contents">
+                    <h3>サポートを受ける前の悩み</h3>
+                    <p>僕が空手を始めたのは小学4年生の時でした。<br>
+                      当時は強くなりたいけどキツイ練習が嫌いで、特に<strong>夢も目標も無く空手を続けているだけ</strong>でした。</p>
+                  </div>
+                  <div class="voice__contents">
+                    <h3>コーチやプログラム内容の印象</h3>
+                    <p>中学2年になって、初めて古徳コーチのセッションを受けました。明るくて知識が豊富、しっかり向き合ってくれる印象でした。<br>
+                      特に夢も目標も無かった自分にまずは<strong>目標を持つ大切さに気付かせてくれました</strong>。<br>
+                      いつ、どうなりたいのか？それに向けてやるべきこと、気持ちの持ち方、とにかく良かったところを沢山褒め、認めてくれる、それだけでなく、悪かった所（改善すべきところ）はどうすれば良いのか一緒に考えてくれました。</p>
+                  </div>
+                  <div class="voice__contents">
+                    <h3>サポートを受けてからの変化</h3>
+                    <p>古徳コーチの丁寧なサポートのお陰で、<br>
+                      <strong>・空手の大会で優勝したい！</strong><br>
+                      <strong>・空手を活かした仕事をしたい！</strong><br>
+                      と強く思うようになり、あんなに嫌いだった練習にも真剣に取り組むことができるようになりました。<br>
+                      コーチングを受けてしばらく経ったとき、古徳コーチから「試合に出てみては？」と言われ出場してみると、<span>3年ぶりの大会で優勝する事ができました</span>。<br>
+                      その後、道場生の指導も手伝うようになると、指導法などのアドバイスも頂きました。<br>
+                      今は古徳コーチのような人になることが夢で背中を追っています！<br>
+                      古徳コーチと出会うまでは夢も無く、何をどうしたら良いのかもわかりませんでした。自分に夢を与えてくれた人だと思っています。<span>古徳コーチと接すると本当に前向きにさせてくれます</span>。不思議な力があります。そういう人です。
+                    </p>
+                  </div>
+                  <div class="voice__contents">
+                    <h3>迷っている人へ一言</h3>
+                    <p>なにかに悩んでどうしたらいいのかわからない方へ沢山の経験のもとコーチングで導いてくれます。
+                      <span>古徳コーチに頼れば間違いないです！</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <button class="voice__button">サポート選手の声を<br>
             もっと見る
-        </div>
         </button>
       </section>
       <!-- コーチ紹介 -->
@@ -608,6 +652,112 @@ if (empty($_SESSION['token'])) {
             <p>パーソナルフィットネスStudioK 代表</p>
           </div>
           <!-- アコーディオン -->
+          <div class="cards">
+            <div class="card">
+              <h3 class="card__title underline">20歳で空手全日本優勝、<br>
+                海外での修行・指導実績も</h3>
+              <div class="card__content">
+                <p class="card__text">
+                  私は8歳のときに見たアクション映画がきっかけで”強さ”に憧れ、13歳のときに...
+                </p>
+                <button class="card__open">
+                  <span class="more">続きを読む</span>
+                </button>
+              </div>
+              <div class="card__content-hide">
+                <p class="card__text">
+                  私は8歳のときに見たアクション映画がきっかけで”強さ”に憧れ、13歳のときに空手道場の門を叩き、その魅力にのめり込みました。
+                  毎日が楽しく夢中で稽古に励み、20歳で国際総合空手日本大会優勝という大きな成果を得ることができました。</p>
+                <p class="card__text">
+                  以降、80戦以上を積み重ね、新たな挑戦として40歳でキックボクシングへと転向します。
+                </p>
+                <img src="assets/img/card01.jpg" alt="" width="311" height="178" loading="lazy"
+                  decoding="async" class="" />
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="card__title underline">選手として、指導者として、親として</h3>
+              <div class="card__content is-open" role="button" tabindex="0">
+                <p class="card__text">
+                  選手と指導者という立場を経験してきたなか、多くの子どもと触れ...
+                </p>
+                <span class="more">続きを読む</span>
+              </div>
+              <div class="card__content-hide">
+                <p class="card__text">
+                  選手と指導者という立場を経験してきたなか、多くの子どもと触れ合う機会がありました。子どもは心も体も柔軟で可能性に満ち溢れています。一方メンタルという点において、成長過程の子どもにはとても繊細な時期があります
+                <p class="card__text">
+                  そのような時期は周りでサポートする大人（アスリート・アントラージュ）の存在はとても重要です。子どもの気持ちを尊重し、受け入れ、見守る姿勢が大切で、どのような関わり方をするか、言葉がけをするかで子どものパフォーマンスとその後のアスリート人生、未来は大きく変わります。
+                </p>
+                <p class="card__text">
+                  私自身、武道を通して我が子とも親子の対話ができ、思春期を経ても「心の繋がり」を感じることができ、家庭内での調和がとれたことは、父親として、指導者として、そして選手としての私を大きく成長させてくれました。
+                </p>
+                <img src="assets/img/card02.jpg" alt="" width="311" height="178" loading="lazy"
+                  decoding="async" class="" />
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="card__title underline">突然やってきた”超”集中状態</h3>
+              <div class="card__content is-open" role="button" tabindex="0">
+                <p class="card__text">
+                  もちろんすべて順風満帆だったわけでなく、選手生活を送るなか挫折やスランプも...
+                </p>
+                <span class="more">続きを読む</span>
+              </div>
+              <div class="card__content-hide">
+                <p class="card__text">
+                  もちろんすべて順風満帆だったわけでなく、選手生活を送るなか挫折やスランプもあり、練習で取り組んできたことが本番でまったく発揮できないことは多々ありましたし、逆に驚くほど調子が良いときもありました。
+                <p class="card__text">
+                  「あれ？ぜんぜん疲れないぞ？？」
+                </p>
+                <p class="card__text">
+                  ！？いつもならとっくに息が上がっているのに、まだまだ動ける！足裏に根が張ったように安定している！体幹がブレない！相手の動きが見える！技がぜんぶ決まる！そんな感覚の試合が何度かありました。
+                </p>
+                <p class="card__text">
+                  衝撃でした。自分でも驚くほどの集中力（ゾーン状態）でハイパフォーマンスを発揮できた瞬間です。しかし、これがなぜ起きたのか？まったく理解できず、ただ「調子が良かっただけ」と思っていました。
+                </p>
+                <img src="assets/img/card03.jpg" alt="" width="311" height="178" loading="lazy"
+                  decoding="async" class="" />
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="card__title underline">大怪我で気づいたメンタルの重要性</h3>
+              <div class="card__content is-open" role="button" tabindex="0">
+                <p class="card__text">
+                  私はこれまで2度、選手生命に関わる大怪我をしました。たった3年の間に...
+                </p>
+                <span class="more">続きを読む</span>
+              </div>
+              <div class="card__content-hide">
+                <p class="card__text">
+                  私はこれまで2度、選手生命に関わる大怪我をしました。<br>
+                  たった3年の間に両膝の前十字靭帯を断裂。
+                <p class="card__text">
+                  この時期は敗戦が続き、メンタルも落ち込み、競技に楽しみを見出せなくなり、ただただ辛い日々でした。練習に復帰しても不安しかなく、ジムに行くことすら苦痛で、身体もまったく仕上がらないため、試合どころではありませんでした。
+                </p>
+                <p class="card__text">
+                  「もう、ここらが潮時かな…。」
+                </p>
+                <img src="assets/img/card04.jpg" alt="" width="311" height="178" loading="lazy"
+                  decoding="async" class="" />
+                <p class="card__text">
+                  そんな時に出会ったのが、スポーツ心理学とメンタルコーチングです。<br>
+                  このとき、パフォーマンスを最大限に発揮するためには、フィジカル面だけでなく「”メンタル”と”環境”を整えること」がとても重要であることに気付かされました。
+                <p class="card__text">
+                  この時期は敗戦が続き、メンタルも落ち込み、競技に楽しみを見出せなくなり、ただただ辛い日々でした。練習に復帰しても不安しかなく、ジムに行くことすら苦痛で、身体もまったく仕上がらないため、試合どころではありませんでした。
+                </p>
+                <p class="card__text">
+                  思い返してみれば結果が出ない時期は、楽しみよりも焦りや恐怖心でいっぱいの状態。
+                  『”超”集中状態』が訪れたときは、”心の状態”と”環境”が自然に整い安定している状態で、試合にワクワクする気持ちで臨めていました。
+                </p>
+                <p class="card__text">
+                  以降、少しずつメンタルを整えたことで、練習に向かう姿勢や、身体の仕上がりにも変化があらわれ、復帰戦では自分が思っていた以上のパフォーマンスを発揮することができたのです。
+                </p>
+                <img src="assets/img/card05.jpg" alt="" width="311" height="178" loading="lazy"
+                  decoding="async" class="" />
+              </div>
+            </div>
+          </div>
           <div class="message">MESSAGE</div>
           <!-- 動画 -->
           <div class="message__title second-font">自分を信じ、<br>
@@ -730,11 +880,12 @@ if (empty($_SESSION['token'])) {
     <footer class="bz-footer">
       <div class="bz-footer__inner inner">
         <div class="bz-footer__copyright">
-          &copy;
+
           <script>
             TYnow = new Date();
             document.write(TYnow.getFullYear());
           </script>
+          &copy;
           ZONE Coaching Co., Ltd. All Rights Reserved.
         </div>
       </div>
