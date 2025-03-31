@@ -1,10 +1,9 @@
 <?php require 'header.php'; ?>
 <div class="bz">
-  <img src="assets/img/pc-bg-left.png" alt="" class="pc-bg-left" />
-  <img src="assets/img/pc-bg-right.png" alt="" class="pc-bg-right" />
+  <img src="assets/img/pc-bg.png" alt="" class="pc-bg" />
   <h2 class="pc-logo__wrapper">
     <a href="./">
-      <img src="assets/img/pc-logo.png" alt="LEVERAGE BASE" class="pc-logo" />
+      <img src="assets/img/pc-logo.png" alt="ゾーンメンタルコーチング" class="pc-logo" />
     </a>
   </h2>
 
@@ -13,13 +12,32 @@
     <!-- bz-pc__contentはデバイスの高さによって縮小される -->
     <div class="bz-pc__content">
       <div class="bz-pc__box">
-        <h2>
-          <img src="assets/img/pc-left.png" class="pc01" alt="xxx" />
-        </h2>
-        <a href="./#contact" class="pc-btn01">
-          <img src="assets/img/cta-button01.png" alt="Entry 今すぐ応募" width="373" height="102" decoding="async"
-            class="pc-cta-button" />
-        </a>
+               <div>
+          <img src="assets/img/pc-tokuten.png" alt="3大特典プレゼント" width="323" height="186" loading="lazy"
+            decoding="async" class="" />
+        </div>
+        <div class="tokuten__items">
+          <div class="tokuten__item tokuten__item1">
+            <div class="title">フィードバックシート</div>
+            <p>体験セッションでの内容をコーチが分析し、具体的なアドバイスをフィードバックすることで自己理解が深まります。</p>
+          </div>
+          <div class="tokuten__item tokuten__item2">
+            <div class="title">ゾーンに入る5つのステップ</div>
+            <p>すぐに実践できる具体的なゾーンメンタルの知恵をまとめた資料です。</p>
+          </div>
+          <div class="tokuten__item tokuten__item3">
+            <div class="title">試合・練習前の<br>
+              メンタルルーチン集</div>
+            <p>パフォーマンスを最大限に発揮するための「心の準備」をサポートするためのガイドです。</p>
+          </div>
+        </div>
+        <div class="cta01_cta cta">
+          <p class="second-font cta__text cta__text-pc">\ まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感 /</p>
+          <a href="contact.php" class="cta__button01">
+            <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
+              decoding="async" loading="lazy" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -41,21 +59,20 @@
           </h2>
 
           <p class="bz-thanks__text">
-            改めてご連絡をさせて頂きますので<br>今しばらくお待ちください。
+            改めてご連絡をさせていただきますので<br>今しばらくお待ちください。<br>
                      3営業日経っても連絡がない場合は、<br>
             記入もれやシステム障がいの可能性があるため、<br>
             改めてご連絡いただけますと幸いです。<br>
           </p>
           <div class="bz-thanks__box">
-            <h3 class="bz-thanks__title">LINEの登録もこちらから</h3>
-            <p class="bz-thanks__text">よろしければ下記のLINEまでご連絡いただけるとよりスムーズに連絡のやりとりが可能です。<br>
-              また、特別動画の視聴もできますのでぜひご登録お願いいたします！</p>
+            <h3 class="thanks-line__title">LINEの登録もこちらから</h3>
+            <p class="thanks-line__text">よろしければ下記のLINEまでご連絡いただけると<br>よりスムーズに連絡のやりとりが可能です。<br>
+              また、特別動画の視聴もできますので<br>ぜひご登録お願いいたします！</p>
 
             <div class="cta02_cta cta">
-              <a href="https://lin.ee/BBzpQcc" class="cta__button02">
-                <img src="assets/img/icon-line.png" class="cta__line" alt="line" width="59" height="56"
+              <a href="https://lin.ee/BBzpQcc" class="cta__button02 thanks__button">
                   decoding="async" loading="lazy" />
-                <div class="cta__line-text">
+                <div class="cta__line-text cta__thanks-text">
                   <span>メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法</span><br>
                   LINE登録者限定配信中!
                 </div>
@@ -66,7 +83,7 @@
                 decoding="async" class="thanks__image" />
               <div class="bz-thanks__name">
                 ゾーンメンタルコーチング<br>
-                メンタルトレーナー
+                メンタルトレーナー<br>
                 <span>古徳大輔</span>
               </div>
             </div>
@@ -75,7 +92,12 @@
 
     <!-- フッター -->
     <footer class="bz-footer">
-      <div class="bz-footer__inner inner">
+      <div class="bz-footer__inner">
+        <div class="bz-footer__wrap">
+          <div class="bz-footer__link">
+            <a href="./privacy.php" class="bz-footer__link-item" target="_blank">プライバシーポリシー</a>
+          </div>
+        </div>
         <div class="bz-footer__copyright">
           <script>
             TYnow = new Date();

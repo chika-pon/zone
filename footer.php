@@ -125,10 +125,10 @@
       arrows: false, // 矢印ボタンを非表示
       pagination: false, // ページネーションを非表示
       drag: false, // ドラッグ無効
-      fixedWidth: "12.3175rem", // スライドの幅
-      gap: 31, // スライド間の余白
+      fixedWidth: "14.9375rem", // スライドの幅
+      gap: 12, // スライド間の余白
       autoScroll: {
-        speed: isMobile ? 0.5 : 0.5, // スマホ時は遅くする
+        speed: 0.5, // スマホ時は遅くする
         pauseOnHover: false, // カーソルが乗ってもスクロールを停止させない
       },
     };
@@ -217,34 +217,30 @@
 
     // ボタンがクリックされた時
     button.addEventListener("click", function() {
-        console.log('ボタンがクリックされました');
-        
-        // 'voice-open' クラスを明示的に追加
-        hiddenSection.classList.add('voice-open');
-        
-        // voice-open が付与されたらボタンを非表示に
-        button.style.display = 'none';
 
-        // 追加されたクラスの確認
-        console.log('hiddenSectionのクラス: ', hiddenSection.classList);
+      // 'voice-open' クラスを明示的に追加
+      hiddenSection.classList.add('voice-open');
+
+      // voice-open が付与されたらボタンを非表示に
+      button.style.display = 'none';
     });
-});
+  });
 </script>
 
 <!-- メッサージ　アコーディオン -->
 <script>
   const buttons = document.querySelectorAll('.card__open');
 
-buttons.forEach(button => {
-  button.addEventListener('click', function() {
-    const card = button.closest('.card'); // 現在のカード要素を取得
-    const contentOpen = card.querySelector('.card__content'); // このカードのcontent
-    const contentHide = card.querySelector('.card__content-hide'); // このカードのhidden content
+  buttons.forEach(button => {
+    button.addEventListener('click', function() {
+      const card = button.closest('.card'); // 現在のカード要素を取得
+      const contentOpen = card.querySelector('.card__content'); // このカードのcontent
+      const contentHide = card.querySelector('.card__content-hide'); // このカードのhidden content
 
-    contentOpen.classList.toggle('is-open'); // is-openクラスを切り替える
-    contentHide.classList.toggle('is-open'); // is-openクラスを切り替える
+      contentOpen.classList.toggle('is-open'); // is-openクラスを切り替える
+      contentHide.classList.toggle('is-open'); // is-openクラスを切り替える
+    });
   });
-});
 </script>
 
 <!-- Safariのみに使用できるクラス -->

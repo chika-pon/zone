@@ -29,15 +29,9 @@ function get_input($key)
 
 $name           = escape(get_input('name'));
 $furigana       = escape(get_input('furigana'));
-$birthdate      = escape(get_input('birthdate'));
 $mail           = escape(get_input('mail'));
 $phone          = escape(get_input('phone'));
-$address        = escape(get_input('address'));
-$university     = escape(get_input('university'));
-$faculty        = escape(get_input('faculty'));
-$department     = escape(get_input('department'));
-$graduationYear = escape(get_input('graduation-year'));
-$employmentType = escape(get_input('employment-type'));
+$sports     = escape(get_input('sports'));
 $kibouday1     = escape(get_input('kibouday1'));
 $kibouday2     = escape(get_input('kibouday2'));
 $kiboutime1     = escape(get_input('kiboutime1'));
@@ -46,8 +40,8 @@ $message     = escape(get_input('message'));
 
 // 必須項目のバリデーション
 if (
-    empty($name) || empty($furigana) || empty($birthdate) || empty($mail) || empty($phone) || empty($address) ||
-    empty($university) || empty($faculty) || empty($department) || empty($graduationYear) || empty($employmentType) ||
+    empty($name) || empty($furigana) ||  empty($mail) || empty($phone) || 
+    empty($sports) || 
     empty($kibouday1) || empty($kibouday2) || empty($kiboutime1) || empty($kiboutime2)
 ) {
     die("必須項目が入力されていません");
@@ -80,18 +74,12 @@ $admin_text = <<<EOT
 ----------------------------------------------
 【お名前】 {$name}
 【ふりがな】 {$furigana}
-【生年月日】 {$birthdate}
-【電話番号】 {$phone}
 【メールアドレス】 {$mail}
-【住所】 {$address}
-【大学】 {$university}
-【学部】 {$faculty}
-【学科】 {$department}
-【卒業見込み年月（卒業年月）】 {$graduationYear}
-【採用形態】 {$employmentType}
-【面接希望日（第一希望）】 {$kibouday1} {$kiboutime1}
-【面接希望日（第二希望）】 {$kibouday2} {$kiboutime2}
-【自由記入欄】
+【お電話番号】 {$phone}
+【スポーツの種目名】 {$sports}
+【ご希望日時（第一希望）】 {$kibouday1} {$kiboutime1}
+【ご希望日時（第二希望）】 {$kibouday2} {$kiboutime2}
+【ご予約動機】
 {$message}
 ----------------------------------------------
 EOT;
@@ -100,12 +88,12 @@ EOT;
 $user_text = <<<EOT
 {$name} 様
 
-この度は株式会社xxxにご応募いただき、誠にありがとうございます。
-今後の選考に関しましては追ってご連絡させていただきますので、今しばらくお待ちください。
+無料体験セッションのお申し込み、誠にありがとうございます。
+改めてご連絡をさせて頂きますので今しばらくお待ちください
 
-※3営業日以内にこちらからの連絡がない場合は、一度迷惑メールボックスをご確認の上、改めてご連絡いただけますと幸いです。
-
-引き続き、よろしくお願いいたします。
+3営業日経っても連絡がない場合は、
+記入もれやシステム障がいの可能性があるため、
+改めてご連絡いただけますと幸いです。
 
 ====================
 株式会社xxx

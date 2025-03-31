@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-<?php
-$title = 'xxxxxxx';
-$description = '若いうちの挑戦が大きな武器に。学生インターン、中途採用を募集中。未経験歓迎、業界トップクラスの給与、営業スキルが身に付く環境です。';
-?>
 
-<head>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

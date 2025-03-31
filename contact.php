@@ -1,4 +1,19 @@
 <?php
+// セッションを開始（セッションが未開始の場合のみ）
+if (session_status() === PHP_SESSION_NONE) {
+  session_start();
+}
+
+// トークンが未設定の場合にのみ生成
+if (empty($_SESSION['token'])) {
+  $_SESSION['token'] = bin2hex(random_bytes(32));
+}
+
+require 'header.php';
+?>
+
+<?php
+/*
 session_start();  // セッション開始
 
 // トークン生成
@@ -7,14 +22,16 @@ if (empty($_SESSION['token'])) {
 }
 
 require 'header.php';
+*/
 ?>
 
+
+
 <div class="bz">
-  <img src="assets/img/pc-bg-left.png" alt="" class="pc-bg-left" />
-  <img src="assets/img/pc-bg-right.png" alt="" class="pc-bg-right" />
+  <img src="assets/img/pc-bg.png" alt="" class="pc-bg" />
   <h2 class="pc-logo__wrapper">
     <a href="./">
-      <img src="assets/img/pc-logo.png" alt="xxx" class="pc-logo" />
+      <img src="assets/img/pc-logo.png" alt="ゾーンメンタルコーチング" class="pc-logo" />
     </a>
   </h2>
 
@@ -23,22 +40,35 @@ require 'header.php';
     <!-- bz-pc__contentはデバイスの高さによって縮小される -->
     <div class="bz-pc__content">
       <div class="bz-pc__box">
-        <h2>
-          <img src="assets/img/pc-left.png" class="pc01"
-            alt="新卒・中途・学生インターン 一緒に働ける営業職積極採用中! No.01 未経験大歓迎 元業界日本一の会社出身のメンバーが０から教えます No.02 平均月収50万円 業界トップクラス! 入社半年以内の 社員給与額 No.03 一生物の営業スキル 急成長中の業界だからこそ得られる" />
-        </h2>
-        <div class="pc-btn01">
-          <p class="cta__text cta__text-white">まずは<span>60</span>分で超集中状態を体感</p>
+        <div>
+          <img src="assets/img/pc-tokuten.png" alt="3大特典プレゼント" width="323" height="186" loading="lazy"
+            decoding="async" class="" />
+        </div>
+        <div class="tokuten__items">
+          <div class="tokuten__item tokuten__item1">
+            <div class="title">フィードバックシート</div>
+            <p>体験セッションでの内容をコーチが分析し、具体的なアドバイスをフィードバックすることで自己理解が深まります。</p>
+          </div>
+          <div class="tokuten__item tokuten__item2">
+            <div class="title">ゾーンに入る5つのステップ</div>
+            <p>すぐに実践できる具体的なゾーンメンタルの知恵をまとめた資料です。</p>
+          </div>
+          <div class="tokuten__item tokuten__item3">
+            <div class="title">試合・練習前の<br>
+              メンタルルーチン集</div>
+            <p>パフォーマンスを最大限に発揮するための「心の準備」をサポートするためのガイドです。</p>
+          </div>
+        </div>
+        <div class="cta01_cta cta">
+          <p class="second-font cta__text cta__text-pc">\ まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感 /</p>
           <a href="contact.php" class="cta__button01">
             <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
               decoding="async" loading="lazy" />
           </a>
         </div>
-        </a>
       </div>
     </div>
   </div>
-
   <!-- SP部分 -->
   <div class="bz-page contact-page">
     <main class="bz-main">
@@ -63,14 +93,10 @@ require 'header.php';
             <img src="assets/img/contact01.jpg" alt="女性がパソコンの画面を見て話している様子" width="317" height="212" loading="lazy"
               decoding="async" class="contact__image" />
 
+            <!-- 無料オンラインセッション体験申し込みフォーム -->
             <form id="mail_form" class="c-form" action="./functions/mail-send.php" method="post">
-
-              <?php
-              /*
-<input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>" />
-*/
-              ?>
-
+              <!-- フォーム内にトークンを埋め込む -->
+              <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
 
               <div class="bz-contact__form-body">
                 <!-- お名前 -->
@@ -118,7 +144,7 @@ require 'header.php';
                     <p>ご住所</p>
                     <span class="required">必須</span>
                   </div>
-                  <input type="text" class="c-input" name="apress" placeholder="東京都杉並区高円寺南4-12-1" required />
+                  <input type="text" class="c-input" name="address" placeholder="東京都杉並区高円寺南4-12-1" required />
                 </div> -->
 
                 <!-- スポーツの種目名 -->
@@ -127,14 +153,14 @@ require 'header.php';
                     <p>スポーツの種目名</p>
                     <span class="required">必須</span>
                   </div>
-                  <input type="text" class="c-input" name="university" placeholder="サッカー" required />
+                  <input type="text" class="c-input" name="sports" placeholder="サッカー" required />
                 </div>
 
                 <!-- ご希望日時（第一希望） -->
                 <div class="bz-contact__form-item bz-contact__form-item--02 c-form-item">
                   <div class="c-form-item__label">
                     <div class="c-form-item__ttl c-form-item__ttl--02">
-                      <p>ご希望日時（第一希望））</p>
+                      <p>ご希望日時（第一希望）</p>
                       <span class="required">必須</span>
                     </div>
                   </div>
@@ -198,26 +224,23 @@ require 'header.php';
                       <p>ご予約動機</p>
                     </div>
                     <textarea class="c-input c-message" maxlength="256" name="message"
-                      placeholder="記入例）サッカー部の高１です。
-本番で緊張しすぎてチームの足を引っ張ってしまっています。
-体験セッション希望です。"
+                      placeholder="記入例）サッカー部の高１です。本番で緊張しすぎてチームの足を引っ張ってしまっています。体験セッション希望です。"
                       required data-id=""></textarea>
                   </div>
                 </div>
 
                 <!-- 送信ボタン -->
                 <div class="bz-contact__form-btn">
-                  <button type="submit" class="c-cta-btn__btn">内容を送信する
+                  <button id="submit-btn" type="submit" class="c-cta-btn__btn">内容を送信する
                     <!-- <img src="assets/img/submit-button.png" alt="内容を送信する" width="300" height="82" loading="lazy"
                       decoding="async" class="c-cta-btn__btn"> -->
                   </button>
                 </div>
               </div>
+            </form>
           </div>
-          </form>
         </div>
       </section>
-      </form>
     </main>
 
     <!-- フッター -->
@@ -240,7 +263,6 @@ require 'header.php';
     </footer>
   </div>
 </div>
-
 
 <script>
   // フォームの入力欄を順番に表示
