@@ -27,43 +27,62 @@
   <!-- SP部分 -->
   <div class="bz-page bz-thanks-page">
     <main class="bz-main">
-      <div class="bz-01 cta-exist" id="fv">
+      <div class="bz-01 cta-exist bz-thanks-logo" id="fv">
         <h1>
-          <a href="./"><img src="assets/img/pc-logo.png" alt="xxx" class="sp-logo" /></a>
+          <a href="./index.php"><img src="assets/img/sp-logo02.png" alt="ゾーンメンタルコーチング" width="414" height="52" class="sp-logo" /></a>
         </h1>
       </div>
 
       <div class="bz-thanks">
         <div class="bz-thanks__inner">
           <h2 class="bz-thanks__title">
-            ご応募いただき<br>ありがとうございます！
+            無料体験セッションのお申し込み<br>
+            誠にありがとうございます！
           </h2>
-          <img src="assets/img/thanks-image.png" alt="3人の社員が笑顔で並んでいる様子" width="359" height="231" loading="lazy"
-            decoding="async" class="thanks__image" />
+
           <p class="bz-thanks__text">
             改めてご連絡をさせて頂きますので<br>今しばらくお待ちください。
-          </p>
-
-          <p class="bz-thanks__note">
-            ※3営業日経っても連絡がない場合は、<br>
+                     3営業日経っても連絡がない場合は、<br>
             記入もれやシステム障がいの可能性があるため、<br>
             改めてご連絡いただけますと幸いです。<br>
-            メールでのお問い合わせは<br><a href="mailto:xxx@xxx.co.jp">こちら</a>からお願いいたします。
           </p>
-        </div>
-      </div>
+          <div class="bz-thanks__box">
+            <h3 class="bz-thanks__title">LINEの登録もこちらから</h3>
+            <p class="bz-thanks__text">よろしければ下記のLINEまでご連絡いただけるとよりスムーズに連絡のやりとりが可能です。<br>
+              また、特別動画の視聴もできますのでぜひご登録お願いいたします！</p>
+
+            <div class="cta02_cta cta">
+              <a href="https://lin.ee/BBzpQcc" class="cta__button02">
+                <img src="assets/img/icon-line.png" class="cta__line" alt="line" width="59" height="56"
+                  decoding="async" loading="lazy" />
+                <div class="cta__line-text">
+                  <span>メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法</span><br>
+                  LINE登録者限定配信中!
+                </div>
+              </a>
+            </div>
+            <div class="bz-thanks__flex">
+              <img src="assets/img/thanks-img01.jpg" alt="古徳大輔メンタルトレーナー" width="93" height="93" loading="lazy"
+                decoding="async" class="thanks__image" />
+              <div class="bz-thanks__name">
+                ゾーンメンタルコーチング<br>
+                メンタルトレーナー
+                <span>古徳大輔</span>
+              </div>
+            </div>
+          </div>
     </main>
 
     <!-- フッター -->
     <footer class="bz-footer">
       <div class="bz-footer__inner inner">
         <div class="bz-footer__copyright">
-          &copy;
           <script>
-          TYnow = new Date();
-          document.write(TYnow.getFullYear());
+            TYnow = new Date();
+            document.write(TYnow.getFullYear());
           </script>
-          leverage-base Co,.Ltd.
+          &copy;
+          ZONE Coaching Co., Ltd. All Rights Reserved.
         </div>
       </div>
     </footer>

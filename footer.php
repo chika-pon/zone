@@ -213,76 +213,39 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const button = document.querySelector('.voice__button');
-    const hiddenSection = document.querySelector('.hidden');
+    const hiddenSection = document.querySelector('.voice-hidden');
 
+    // ボタンがクリックされた時
     button.addEventListener("click", function() {
-      // 'hidden' クラスを削除して 'is-open' クラスを追加
-      hiddenSection.classList.remove('hidden');
-      hiddenSection.classList.add('is-open');
+        console.log('ボタンがクリックされました');
+        
+        // 'voice-open' クラスを明示的に追加
+        hiddenSection.classList.add('voice-open');
+        
+        // voice-open が付与されたらボタンを非表示に
+        button.style.display = 'none';
 
-      // button を非表示にする
-      button.style.display = 'none'; // ボタンを非表示にする
+        // 追加されたクラスの確認
+        console.log('hiddenSectionのクラス: ', hiddenSection.classList);
     });
-  });
+});
 </script>
 
 <!-- メッサージ　アコーディオン -->
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const buttons = document.querySelectorAll(".card__open");
+  const buttons = document.querySelectorAll('.card__open');
 
-    buttons.forEach((button) => {
-      button.addEventListener("click", function(event) {
-        event.stopPropagation(); // 他の要素へのクリック伝播を防ぐ
+buttons.forEach(button => {
+  button.addEventListener('click', function() {
+    const card = button.closest('.card'); // 現在のカード要素を取得
+    const contentOpen = card.querySelector('.card__content'); // このカードのcontent
+    const contentHide = card.querySelector('.card__content-hide'); // このカードのhidden content
 
-        const hiddenContent = this.closest(".card").querySelector(".card__content-hide");
-
-        if (hiddenContent.classList.contains("is-open")) {
-          hiddenContent.classList.remove("is-open");
-        } else {
-          // すべて閉じる
-          document.querySelectorAll(".card__content-hide").forEach((el) => {
-            el.classList.remove("is-open");
-          });
-
-          hiddenContent.classList.add("is-open");
-        }
-      });
-    });
-  });
-</script>
-
-<!-- <script>
-$(document).ready(function() {
-  $('.card__open').on('click', function() {
-    const $card = $(this).closest('.card'); // 親要素 .card を取得
-    const $cardText = $card.find('.card__text'); // テキストを取得
-    const $cardTextHide = $card.find('.card__text-hide'); // 隠れているテキストを取得
-    const $cardClose = $card.find('.card__close'); // 閉じるボタンを取得
-
-    // クラスの追加/削除
-    $cardTextHide.addClass('is-open'); // 隠れているテキストを表示
-    $cardText.removeClass('is-open'); // テキストを非表示
-    $(this).addClass('is-open'); // 開くボタンにクラスを追加
-    $cardClose.addClass('is-open'); // 閉じるボタンにクラスを追加
-    $(this).removeClass('is-open'); // 開くボタンを非表示
-  });
-
-  $('.card__close').on('click', function() {
-    const $card = $(this).closest('.card'); // 親要素 .card を取得
-    const $cardText = $card.find('.card__text'); // テキストを取得
-    const $cardTextHide = $card.find('.card__text-hide'); // 隠れているテキストを取得
-    const $cardOpen = $card.find('.card__open'); // 開くボタンを取得
-
-    // クラスの追加/削除
-    $cardText.addClass('is-open');
-    $cardTextHide.removeClass('is-open'); // 隠れているテキストを非表示
-    $(this).removeClass('is-open'); // 閉じるボタンからクラスを削除
-    $cardOpen.removeClass('is-open'); // 開くボタンからクラスを削除
-    $cardOpen.addClass('is-open'); // 開くボタンを再表示
+    contentOpen.classList.toggle('is-open'); // is-openクラスを切り替える
+    contentHide.classList.toggle('is-open'); // is-openクラスを切り替える
   });
 });
-</script> -->
+</script>
 
 <!-- Safariのみに使用できるクラス -->
 <script>
