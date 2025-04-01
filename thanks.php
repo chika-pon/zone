@@ -92,7 +92,7 @@
     </main>
 
     <!-- フッター -->
-    <footer class="bz-footer">
+    <footer class="bz-footer contact-footer">
       <div class="bz-footer__inner">
         <div class="bz-footer__wrap">
           <div class="bz-footer__link">

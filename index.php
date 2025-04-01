@@ -1,21 +1,3 @@
-
-<!-- ここから -->
- <?php
- /*
-<?php
-// セッションを開始（セッションが未開始の場合のみ）
-if (session_status() === PHP_SESSION_NONE) {
-  session_start();
-}
-
-// トークンが未設定の場合にのみ生成
-if (empty($_SESSION['token'])) {
-  $_SESSION['token'] = bin2hex(random_bytes(32));
-}
-?>
-<!-- ここまではcontact.phpがあればそっちに記入する -->
-*/
-?>
 <?php require 'header.php'; ?>
 
 <div class="bz">
@@ -31,7 +13,7 @@ if (empty($_SESSION['token'])) {
     <!-- bz-pc__contentはデバイスの高さによって縮小される -->
     <div class="bz-pc__content">
       <div class="bz-pc__box">
-               <div>
+        <div>
           <img src="assets/img/pc-tokuten.png" alt="3大特典プレゼント" width="323" height="186" loading="lazy"
             decoding="async" class="" />
         </div>
@@ -51,7 +33,7 @@ if (empty($_SESSION['token'])) {
           </div>
         </div>
         <div class="cta01_cta cta">
-          <p class="second-font cta__text cta__text-pc">\ まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感 /</p>
+          <p class="second-font cta__text cta__text-pc">\&nbsp;まずは<span class="highlight"><span class="number">&nbsp;60</span>分&nbsp;</span>で超集中状態を体感&nbsp;/</p>
           <a href="contact.php" class="cta__button01">
             <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
               decoding="async" loading="lazy" />
@@ -99,7 +81,7 @@ if (empty($_SESSION['token'])) {
             </div>
           </div>
           <div class="bz-fv__cta cta">
-            <p class="cta__text second-font">\ まずは <span class="highlight"><span class="number">60</span>分</span> で超集中状態を体感 /</p>
+            <p class="cta__text second-font">\&nbsp;まずは<span class="highlight"><span class="number">&nbsp;60</span>分&nbsp;</span>で超集中状態を体感&nbsp;/</p>
             <a href="contact.php" class="cta__button">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
@@ -124,7 +106,7 @@ if (empty($_SESSION['token'])) {
             <div class="content02__item">
               <img src="assets/img/nayami01.jpg" alt="" width="176" height="127" loading="lazy"
                 decoding="async" class="" />
-              <p><span class="big">大事な試合で<br><span class="underline white">緊張</span>しすぎる</span></p>
+              <p><span class="big">大事な試合で<br><span class="underline">緊張</span>しすぎる</span></p>
             </div>
           </li>
           <li class="content02__list">
@@ -132,7 +114,7 @@ if (empty($_SESSION['token'])) {
             <div class="content02__item">
               <img src="assets/img/nayami02.jpg" alt="" width="176" height="127" loading="lazy"
                 decoding="async" class="" />
-              <p><span class="big">練習や試合に</span><br><span>ストレス</span>を感じる</p>
+              <p><span class="big">練習や試合に</span><br><span class="underline">ストレス</span>を感じる</p>
             </div>
           </li>
           <li class="content02__list">
@@ -140,7 +122,7 @@ if (empty($_SESSION['token'])) {
             <div class="content02__item">
               <img src="assets/img/nayami03.jpg" alt="" width="176" height="127" loading="lazy"
                 decoding="async" class="" />
-              <p>他の選手と比べて<br><span><span class="big">劣等感</span></span>を感じる</p>
+              <p>他の選手と比べて<br><span class="big"><span class="underline">劣等感</span></span>を感じる</p>
             </div>
           </li>
           <li class="content02__list">
@@ -148,7 +130,7 @@ if (empty($_SESSION['token'])) {
             <div class="content02__item">
               <img src="assets/img/nayami04.jpg" alt="" width="176" height="127" loading="lazy"
                 decoding="async" class="" />
-              <p>集中力を保てず<span><span class="big">ミス</span>が増える</span></p>
+              <p>集中力を保てず<br><span class="big"><span class="underline">ミス</span>が増える</span></p>
             </div>
           </li>
         </ul>
@@ -202,11 +184,11 @@ if (empty($_SESSION['token'])) {
               decoding="async" class="" />
           </div>
           <div class="content05__name underline-bk">古徳大輔<span>メンタルコーチ</span></div>
-            <div class="content05__block">
-              <p>トレーナーとして10年以上活躍</p>
-              <p>選手として25年以上のキャリア</p>
-              <p>子どもから大人まで 500名以上の指導実績</p>
-            </div>
+          <div class="content05__block">
+            <p>トレーナーとして10年以上活躍</p>
+            <p>選手として25年以上のキャリア</p>
+            <p>子どもから大人まで 500名以上の指導実績</p>
+          </div>
           <img src="assets/img/k07.png" alt="Miracrea認定プロメンタルコーチ" width="341" height="146" loading="lazy"
             decoding="async" class="k07" />
           <ul class="content05__list">
@@ -258,7 +240,7 @@ if (empty($_SESSION['token'])) {
                 </div>
               </div>
             </div>
-            <div class="step__item">
+            <div class="step__item step__item02">
               <div class="step__item-num">
                 <img src="assets/img/step02.png" alt="step02" width="88" height="27" loading="lazy"
                   decoding="async" class="" />
@@ -275,7 +257,7 @@ if (empty($_SESSION['token'])) {
                 </div>
               </div>
             </div>
-            <div class="step__item">
+            <div class="step__item step__item03">
               <div class="step__item-num">
                 <img src="assets/img/step03.png" alt="step03" width="88" height="27" loading="lazy"
                   decoding="async" class="" />
@@ -324,7 +306,7 @@ if (empty($_SESSION['token'])) {
               <div class="support__item-block">
                 <h3 class="second-font">LINEで<br>
                   無制限サポート</h3>
-                <p class="second-font"><span>試合前の緊張時</span><span>試合後の振り返り</span><br>
+                <p class="p1 second-font"><span>試合前の緊張時</span><span>試合後の振り返り</span><br>
                   <span>コーチングに関する質問や相談</span>など
                 </p>
               </div>
@@ -334,9 +316,9 @@ if (empty($_SESSION['token'])) {
               </div>
             </div>
             <div class="support__item">
-              <div class="support__item-block">
+              <div class="support__item-block support__item-block02">
                 <h3 class="second-font">人間関係の相談</h3>
-                <p>心の負担を軽減し、より良い環境で力を発揮できるよう、周りとの人間関係に関するお悩みも気軽に相談できます。</p>
+                <p class="p2">心の負担を軽減し、より良い環境で力を発揮できるよう、周りとの人間関係に関するお悩みも気軽に相談できます。</p>
                 <div class="k13">
                   <img src="assets/img/k13.png" alt="監督の指導方法に納得がいかない、チームメンバーと価値観が合わない、家族からのプレッシャーがつらい" width="329" height="309" loading="lazy"
                     decoding="async" class="" />
@@ -371,7 +353,7 @@ if (empty($_SESSION['token'])) {
       </div>
       <section class="features">
         <div class="features__inner">
-          <h2><span class="small">ゾーンメンタルコーチング</span><span class="num">3</span>つの特徴</h2>
+          <h2><span class="small">ゾーンメンタルコーチング</span><br><span class="num">3</span>つの特徴</h2>
           <div class="features__items">
             <div class="features__item">
               <div class="features__item-num second-font">1</div>
@@ -379,31 +361,29 @@ if (empty($_SESSION['token'])) {
               <p>一般的なコーチングとは異なり、「本番での超集中状態（ゾーン）を作り出すこと」に特化した独自のメソッドを採用。<br>
                 集中的なトレーニングにより、短期間で心の状態に変化が現れ、実際の競技で成果を実感できます。</p>
             </div>
-          </div>
-          <div class="features__item">
-            <div class="features__item-num second-font">2</div>
-            <div>ゾーンメンタルコーチングだけ！</div>
-            <h3><span>メンタルスコア測定で</span><br>効果を見える化</h3>
-            <div>
-              <img src="assets/img/k16.png" alt="" width="377" height="330" loading="lazy"
-                decoding="async" class="" />
+            <div class="features__item features__item02">
+              <div class="features__item-num second-font">2</div>
+              <div class="box-gr">ゾーンメンタルコーチングだけ！</div>
+              <h3><span>メンタルスコア測定で</span><br>効果を見える化</h3>
+                        <img src="assets/img/k16.png" alt="" width="377" height="330" loading="lazy"
+                  decoding="async" class="k16" />
+                      <p>一般的なコーチングとは異なり、「本番での超集中状態（ゾーン）を作り出すこと」に特化した独自のメソッドを採用。<br>
+                集中的なトレーニングにより、短期間で心の状態に変化が現れ、実際の競技で成果を実感できます。</p>
             </div>
-            <p>一般的なコーチングとは異なり、「本番での超集中状態（ゾーン）を作り出すこと」に特化した独自のメソッドを採用。<br>
-              集中的なトレーニングにより、短期間で心の状態に変化が現れ、実際の競技で成果を実感できます。</p>
-          </div>
-          <div class="features__item">
-            <div class="features__item-num second-font">3</div>
-            <h3><span>イメージトレーニングで</span><br>思考のクセを改善</h3>
-            <p>目標を達成した瞬間や成功した場面をリアルにイメージするトレーニングを行います。 これまでの物事の見方、捉え方、習慣的な思考や心の反応を理解し見直すことで、競技中の冷静さと自信を高めます。</p>
+            <div class="features__item features__item03">
+              <div class="features__item-num second-font">3</div>
+              <h3><span>イメージトレーニングで</span><br>思考のクセを改善</h3>
+              <p>目標を達成した瞬間や成功した場面をリアルにイメージするトレーニングを行います。 これまでの物事の見方、捉え方、習慣的な思考や心の反応を理解し見直すことで、競技中の冷静さと自信を高めます。</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="tokuten">
-        <div class="inner">
+        <div class="tokuten__inner">
           <div>
             <img src="assets/img/tokuten.png" alt="3大特典プレゼント" width="" height="" loading="lazy"
-              decoding="async" class="" />
+              decoding="async" class="tokuten__img" />
           </div>
           <div class="tokuten__items">
             <div class="tokuten__item tokuten__item1">
@@ -421,7 +401,7 @@ if (empty($_SESSION['token'])) {
             </div>
           </div>
           <div class="cta01_cta cta">
-            <p class="second-font cta__text cta__text-white">\ まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感 /</p>
+            <p class="second-font cta__text cta__text-white">\&nbsp;まずは<span class="highlight"><span class="number">&nbsp;60</span>分&nbsp;</span>で超集中状態を体感&nbsp;/</p>
             <a href="contact.php" class="cta__button01">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
@@ -434,7 +414,7 @@ if (empty($_SESSION['token'])) {
           <h2 class="second-font center"><span>本番で結果を出せた！</span><br>サポート選手の声</h2>
           <div class="voice__items">
             <div class="voice__item">
-              <div>
+              <div class="voice__item-img">
                 <img src="assets/img/voice01.png" alt="空手、中学生、小林将人様" width="387" height="269" loading="lazy"
                   decoding="async" class="" />
               </div>
@@ -449,7 +429,7 @@ if (empty($_SESSION['token'])) {
               <div class="voice__contents">
                 <h3>サポートを受ける前の悩み</h3>
                 <p>僕が空手を始めたのは小学4年生の時でした。<br>
-                  当時は強くなりたいけどキツイ練習が嫌いで、特に<strong>夢も目標も無く空手を続けているだけ</strong>でした。</p>
+                  当時は強くなりたいけどキツイ練習が嫌いで、<br>特に<strong>夢も目標も無く空手を続けているだけ</strong>でした。</p>
               </div>
               <div class="voice__contents">
                 <h3>コーチやプログラム内容の印象</h3>
@@ -471,13 +451,13 @@ if (empty($_SESSION['token'])) {
               </div>
               <div class="voice__contents">
                 <h3>迷っている人へ一言</h3>
-                <p>なにかに悩んでどうしたらいいのかわからない方へ沢山の経験のもとコーチングで導いてくれます。
+                <p>なにかに悩んでどうしたらいいのかわからない方へ沢山の経験のもとコーチングで導いてくれます。<br>
                   <span>古徳コーチに頼れば間違いないです！</span>
                 </p>
               </div>
             </div>
             <div class="voice__item">
-              <div>
+              <div class="voice__item-img">
                 <img src="assets/img/voice02.png" alt="レーシングドライバー、20代、今橋彩佳様" width="387" height="269" loading="lazy"
                   decoding="async" class="" />
               </div>
@@ -509,13 +489,13 @@ if (empty($_SESSION['token'])) {
               <div class="voice__contents">
                 <h3>迷っている人へ一言</h3>
                 <p>自分の持っているパフォーマンスを必要な場面で十分発揮するには、日頃からメンタルの管理が重要になってきます。私は気持ちがそのまま結果に反映されると考えていますが、<strong>「勝てる」「出来る」という強い気持ちには、根拠が必要</strong>だと思っています。気持ちを強く装っても、心は弱いままです。私もそうでした。身体同様に、メンタルもしっかり鍛えてあげる必要があります。<br>
-                  フィジカルトレーニングとも上手く組み合わせて、どÏんな時でも100％の実力を発揮できる根拠のある自信と強いメンタルを手に入れてほしいと思います。
+                  フィジカルトレーニングとも上手く組み合わせて、どÏんな時でも100％の実力を発揮できる根拠のある自信と強いメンタルを手に入れてほしいと思います。<br>
                   <strong>競技や勝負事に限らず、メンタルの安定は日常生活でも恩恵が大きいです</strong>。是非メンタルコーチングを受けてみてください。
                 </p>
               </div>
             </div>
             <div class="voice__item">
-              <div>
+              <div class="voice__item-img">
                 <img src="assets/img/voice03.png" alt="プロ格闘家、20代、平山裕翔様" width="387" height="269" loading="lazy"
                   decoding="async" class="" />
               </div>
@@ -551,13 +531,13 @@ if (empty($_SESSION['token'])) {
               <div class="voice__contents">
                 <h3>迷っている人へ一言</h3>
                 <p>気持ちの持ちようなど前向きになり目標に向けて頑張ろうって思えます！<br>
-                  そして<strong>本番でいい結果を残せます！</strong>
+                  そして<strong>本番でいい結果を残せます！</strong><br>
                   是非受けてみてください！
                 </p>
               </div>
             </div>
             <div class="voice__item">
-              <div>
+              <div class="voice__item-img">
                 <img src="assets/img/voice04.png" alt="モデル、20代、冨田七々海様" width="387" height="269" loading="lazy"
                   decoding="async" class="" />
               </div>
@@ -600,7 +580,7 @@ if (empty($_SESSION['token'])) {
           <div class="voice__inner">
             <div class="voice__items">
               <div class="voice__item">
-                <div>
+                <div class="voice__item-img">
                   <img src="assets/img/voice05.png" alt="空手、高校生、小崎貴広様" width="387" height="269" loading="lazy"
                     decoding="async" class="" />
                 </div>
@@ -638,7 +618,7 @@ if (empty($_SESSION['token'])) {
                 </div>
               </div>
               <div class="voice__item">
-                <div>
+                <div class="voice__item-img">
                   <img src="assets/img/voice06.png" alt="プロゴルファー、20代、佐久間綾女様" width="387" height="269" loading="lazy"
                     decoding="async" class="" />
                 </div>
@@ -852,7 +832,7 @@ if (empty($_SESSION['token'])) {
           <div class="message__title second-font">自分を信じ、<br>
             最高のパフォーマンスを</div>
           <div class="message__contents">
-            <p>『練習通りの力を本番で発揮したい！』『あの時の自分を超えたい！』
+            <p>『練習通りの力を本番で発揮したい！』『あの時の自分を超えたい！』<br>
               私自身、競技者として共感します。</p>
             <p>心を整え、メンタルの力、つまり自分自身を味方につけることで、選手は壁を乗り越え、大きく成長し、輝く成果を手に入れることができます。</p>
             <p>想像してみてください。　試合当日「超集中状態（ゾーン）」が自分の武器となり、緊張ではなく「楽しみ」が心の底から湧き上がり、”最高の自分”が目の前のステージで躍動する瞬間を。</p>
@@ -908,7 +888,7 @@ if (empty($_SESSION['token'])) {
       </section>
       <!-- 3大特典 -->
       <section class="tokuten">
-        <div class="inner">
+        <div class="tokuten__inner">
           <div class="tokuten__img">
             <img src="assets/img/tokuten.png" alt="3大特典プレゼント" width="" height="" loading="lazy"
               decoding="async" class="" />
@@ -929,7 +909,7 @@ if (empty($_SESSION['token'])) {
             </div>
           </div>
           <div class="cta01_cta cta">
-            <p class="second-font cta__text cta__text-white">\ まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感 /</p>
+            <p class="second-font cta__text cta__text-white">\&nbsp;まずは<span class="highlight"><span class="number">&nbsp;60</span>分&nbsp;</span>で超集中状態を体感&nbsp;/</p>
             <a href="contact.php" class="cta__button01">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
@@ -950,8 +930,8 @@ if (empty($_SESSION['token'])) {
               <img src="assets/img/icon-line.png" class="cta__line" alt="line" width="59" height="56"
                 decoding="async" loading="lazy" />
               <div class="cta__line-text">
-                <span>メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法</span><br>
-                LINE登録者限定配信中!
+              メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法<br>
+              <span>LINE登録者限定配信中!</span>
               </div>
             </a>
           </div>
