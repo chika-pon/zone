@@ -175,14 +175,14 @@ if (empty($_SESSION['token'])) {
           <p class="p2 second-font">ゾーンメンタルコーチング！</p>
           <h2>超集中状態</h2>
           <p class="p3 second-font">を作ることで</p>
-          <p class="p4 second-font underline">ハイパフォーマンスへ導く</p>
+          <p class="p4 second-font"><span class="underline- bk">ハイパフォーマンス</span>へ導く</p>
           <img src="assets/img/k04.png" alt="超集中状態のメンタルづくりで力を出し切る" width="414" height="478" loading="lazy"
             decoding="async" class="" />
         </div>
         <div class="bg-bk">
           <p class="p5 second-font center line-gr">ご存知ですか？</p>
           <h3 class="second-font center">
-            <span class="f30">超集中状態</span> <span class="f26">（ゾーン）は</span><br>
+            <span class="f30">超集中状態</span> <span class="f26">(ゾーン)は</span><br>
             <span class="highlight">自分で</span>
             作れます!
           </h3>
@@ -202,21 +202,19 @@ if (empty($_SESSION['token'])) {
               decoding="async" class="" />
           </div>
           <div class="content05__name underline-bk">古徳大輔<span>メンタルコーチ</span></div>
-          <div>
             <div class="content05__block">
               <p>トレーナーとして10年以上活躍</p>
               <p>選手として25年以上のキャリア</p>
               <p>子どもから大人まで 500名以上の指導実績</p>
             </div>
-          </div>
           <img src="assets/img/k07.png" alt="Miracrea認定プロメンタルコーチ" width="341" height="146" loading="lazy"
-            decoding="async" class="" />
+            decoding="async" class="k07" />
           <ul class="content05__list">
             <li>JLPGA日本女子プロゴルフ協会所属選手指導</li>
             <li>RISEフライ級ランカー 指導</li>
             <li>元FIA-F4レーシングドライバー指導</li>
             <li>ミスユニバース日本大会出場選手指導</li>
-            <li>常磐大学＆茨城県中小企業家同友会
+            <li>常磐大学＆茨城県中小企業家同友会<br>
               「キャリア形成と大学」3期連続講師</li>
             <li>茨城県立 勝田工業高等学校ラグビー部 指導</li>
             <li>小学校保健安全委員会 講師</li>
@@ -238,7 +236,7 @@ if (empty($_SESSION['token'])) {
       </div>
       <section class="step">
         <div class="step__inner">
-          <p class="second-font center">NLP理論に基づく<br>ゾーンメンタルコーチング</p>
+          <p class="p1 second-font center">NLP理論に基づく<br>ゾーンメンタルコーチング</p>
           <h2 class="second-font center">基本ステップ</h2>
           <div class="step__items">
             <p class="p1 second-font underline-bk">1回60分の完全マンツーマン</p>
@@ -286,8 +284,8 @@ if (empty($_SESSION['token'])) {
                 心を整え練習や本番に繋げる</p>
               <div class="step03__item">
                 <div class="step03__item-block">
-                  <p>NLP理論を用いた<br>
-                    メンタルスキルの一例をご紹介</p>
+                  <div class="step03__item-title">NLP理論を用いた<br>
+                    メンタルスキルの一例をご紹介</div>
                   <ul>
                     <li>プレッシャー管理</li>
                     <p>試合前の緊張や不安を効果的にコントロールする方法を学びます。</p>

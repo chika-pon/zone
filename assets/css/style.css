@@ -269,13 +269,13 @@ h3 {
   }
 }
 
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
   p {
     line-height: 1.75;
     font-size: 16px;
     font-size: 1rem;
   }
-}
+} */
 
 /*===========================================
  Project ここから独自CSS記載
@@ -730,9 +730,9 @@ width: 100%;
 
 .content01 .p2 {
   margin-block: 20px 11px;
-  margin-block: 1.25rem 0.6875rem;
-  padding-block: 18px;
-  padding-bottom: 1.125rem;
+  /* margin-block: 1.25rem 0.6875rem; */
+  padding-block: 12px;
+  /* padding-bottom: 1.125rem; */
   background-color: #232826;
   font-size: 15px;
   font-size: 0.937rem;
@@ -812,6 +812,7 @@ width: 100%;
 .content02__item img {
   border-radius: 0.625rem 0.625rem 0 0;
   border: 2px solid #6BAD4F;
+  aspect-ratio: 176 / 127;
 }
 
 .content02__item p {
@@ -833,20 +834,18 @@ width: 100%;
 /* content03 */
 .content03 {
   margin-top: 66px;
+  padding-top: 54px;
   background: url(../../assets/img/bg01.png)center / contain no-repeat;
   aspect-ratio: 414/983;
 }
 
 .content03 h2,
 .content03 p {
+  margin-left: 14px;
   font-size: 28px;
   letter-spacing: 0.03em;
-  line-height: 130%;
+  line-height: 167%;
   font-weight: 700;
-}
-
-.content03 h2 {
-  padding-top: 50px;
 }
 
 .content03 h2 .box {
@@ -855,7 +854,9 @@ width: 100%;
   font-weight: 700;
   color: #131313;
   border: 1px solid #313131;
+  padding-inline: 5px;
 }
+
 
 .content03 .p1 {
   margin-top: 33px;
@@ -961,12 +962,12 @@ width: 100%;
 }
 
 .content04 .p5 {
+  margin-top: -1px;
   position: relative;
   padding-top: 79px;
-  font-style: italic;
   color: #fff;
   font-size: 35px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.2em;
   line-height: 130%;
   font-weight: 700;
 }
@@ -999,17 +1000,18 @@ width: 100%;
 .content04 .p6 {
   margin-top: 22px;
   padding: 14px 17px 13px 25px;
-  width: 64%;
+  width: 75%;
   margin-inline: auto;
   color: #fff;
   font-size: 13px;
-  letter-spacing: 0.017em;
+  letter-spacing: 0.17em;
   line-height: 170%;
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(40,44,38, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .content04 .p7 {
+  margin-top: -9px;
   position: relative;
   padding-block: 86px 67px;
   padding-inline: 42px;
@@ -1036,11 +1038,11 @@ width: 100%;
   top: 16%;
   left: 50%;
   transform: translateX(-50%);
-  border-left: 13.5px solid transparent;
+  border-left: 11.5px solid transparent;
   /* 左側 */
-  border-right: 13.5px solid transparent;
+  border-right: 11.5px solid transparent;
   /* 右側 */
-  border-top: 18px solid #fff;
+  border-top: 14px solid #fff;
   /* 白い三角形 */
 }
 
@@ -1048,12 +1050,14 @@ width: 100%;
 
 /* content05 */
 .content05 {
+  margin-top: -11px;
+  padding-top: 67px;
   background: url(../../assets/img/bg03.png) center / contain no-repeat;
   aspect-ratio: 414 / 1521;
 }
 
 .content05__inner {
-  padding-inline: 36px;
+  padding-inline: 24px 34px;
 }
 
 .content05 h3 {
@@ -1069,6 +1073,7 @@ width: 100%;
 }
 
 .content05__name {
+  padding-left: 17px;
   margin-top: 37px;
   font-family: 'Shippori Mincho B1', serif;
   font-size: 21px;
@@ -1085,15 +1090,17 @@ width: 100%;
 }
 
 .content05__block {
-  margin-top: 22px;
+ padding-top: 27px;
+  padding-left: 43px;
 }
 
 .content05__block p {
   position: relative;
   font-size: 14px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   line-height: 130%;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .content05__block p:before {
@@ -1102,7 +1109,7 @@ width: 100%;
   background: url(../../assets/img/icon-check.png)center / contain no-repeat;
   aspect-ratio: 16/16;
   max-width: 16px;
-  width: 3vw;
+  width: 6%;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
@@ -1112,20 +1119,25 @@ width: 100%;
 .content05__block p:not(:first-child) {
   padding-top: 8px;
 }
+.k07 {
+  margin-top: 38px;
+    margin-left: 14px;
+}
 
 .content05__list {
-  margin-top: 33px;
-  padding: 29px 11px 27px 22px;
+  margin-top: 30px;
+    margin-left: 10px;
+    padding: 16px 11px 27px 24px;
   background-color: #fff;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.04em;
-  line-height: 150%;
+  line-height: 180%;
 }
 
 .content05__list li {
   position: relative;
-  padding-left: 18px;
+  padding-left: 24px;
   /* 6px (dot) + 9px (space) + margin */
   text-indent: -9px;
   /* 2行目以降のインデント */
@@ -1206,26 +1218,34 @@ width: 100%;
   padding-inline: 15px;
 }
 
+.step .p1 {
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 150%;
+}
+
 .step h2 {
   font-style: italic;
   color: #55AB72;
   font-size: 43px;
   font-weight: 900;
   letter-spacing: 0.2em;
-  line-height: 150%;
+  line-height: 175%;
 }
 
 .step__items {
+  margin-top: 24px;
   background: url(../../assets/img/bg01-02.png) center / contain no-repeat;
   aspect-ratio: 384 / 1507;
   padding-inline: 20px;
 }
 
 .step__items .p1 {
-  padding-top: 33px;
+  padding-top: 41px;
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.3em;
   line-height: 130%;
 }
 
@@ -1240,7 +1260,7 @@ width: 100%;
   position: relative;
   margin-inline: auto;
   padding-top: 16px;
-  padding-inline: 22px;
+  padding-left: 20px;
   background-color: #fff;
   border-radius: 0.625rem;
 }
@@ -1254,6 +1274,7 @@ width: 100%;
 }
 
 .text03 {
+  padding-top: 20px;
   padding-bottom: 21px;
 }
 
@@ -1261,22 +1282,26 @@ width: 100%;
   position: absolute;
 }
 
-.step__item+.step__item {
-  margin-top: 32px;
+.step__item:nth-child(2) {
+  margin-top: 57px;
+}
+.step__item:nth-child(3) {
+  margin-top: 52px;
 }
 
 .step__item-num {
   width: 88px;
-  width: 21.2vw;
+  width: 27%;
 }
 
 .step__item-title {
   position: relative;
   margin-top: 8px;
   font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
   letter-spacing: 0.2em;
-  line-height: 180%;
+  line-height: 190%;
   padding-bottom: 11px;
 }
 
@@ -1285,7 +1310,7 @@ width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 65%;
+  width: 70%;
   height: 1px;
   background-color: #000;
 }
@@ -1297,7 +1322,6 @@ width: 100%;
 }
 
 .step__item-text {
-  margin-top: 37px;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.06em;
@@ -1305,7 +1329,7 @@ width: 100%;
 }
 
 .step__item-img {
-  width: 30vw;
+  width: 40%;
 }
 
 .step03__item {
@@ -1315,18 +1339,18 @@ width: 100%;
 
 .step03__item-block {
   padding-block: 16px 20px;
-  padding-inline: 25px;
-  margin-top: 18px;
+  padding-inline: 22px;
+  margin-top: 20px;
 }
 
-.step03__item-block p {
+.step03__item-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 150%;
 }
 
 .step03__item-block ul {
-  margin-top: 14px;
+  margin-top: 13px;
 }
 
 .step03__item-block ul li {
@@ -1349,7 +1373,7 @@ width: 100%;
 }
 
 .step03__item-block ul li p {
-  padding-top: 4px;
+  padding-top: 7px;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.06em;
@@ -2185,7 +2209,7 @@ margin-top: 21px;
   top: 50%;
   transform: translateY(-50%) rotate(45deg);
   /* 45度回転させて ">" の形に */
-  right: -12%;
+  right: -9%;
 }
 
 /* フッター */
@@ -2582,7 +2606,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   }
 }
 
-@media (max-height: 900px) and (min-width: 900px) {
+/* @media (max-height: 900px) and (min-width: 900px) {
   .bz-thanks {
     min-height: 650px;
     height: calc(100lvh - 3.0625rem);
@@ -2592,7 +2616,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   padding-inline: 22px;
   padding-inline: 1.375rem;
 }
-}
+} */
 
 .bz-thanks__title {
   color: #fff;
@@ -2629,7 +2653,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .bz-thanks__box::before {
   position: absolute;
   content: "";
-  background-image: url(../../assets/img/thanks-line.png)center / contain no-repeat;
+  background: url(../../assets/img/thanks-line.png)center / contain no-repeat;
   aspect-ratio: 41/39;
   max-width: 41px;
   width: 9vw;
@@ -2641,7 +2665,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .thanks-line__title {
   color: #363636;
   font-size: 18px;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   font-weight: 700;
   letter-spacing: 0.24em;
   line-height: 155%;
@@ -2650,20 +2674,20 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .thanks-line__text {
   color: #363636;
     font-size: 12px;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     letter-spacing: 0.1em;
     line-height: 155%;
     margin-top: 14px;
 }
 
 .thanks__button {
-  padding: 15px 26px 10px 12px;
+  padding: 15px 26px 21px 12px;
 }
 .cta__thanks-text {
   font-size: 18px;
   /* font-size: 1rem; */
   letter-spacing: 0.08em;
-  line-height: calc(20/21);
+  line-height: 100%;
 }
 .cta__thanks-text span {
   font-size: 12px;

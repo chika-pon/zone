@@ -71,7 +71,8 @@
 
             <div class="cta02_cta cta">
               <a href="https://lin.ee/BBzpQcc" class="cta__button02 thanks__button">
-                  decoding="async" loading="lazy" />
+              <img src="assets/img/icon-line.png" class="cta__line" alt="line" width="59" height="56"   
+              decoding="async" loading="lazy" />
                 <div class="cta__line-text cta__thanks-text">
                   <span>メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法</span><br>
                   LINE登録者限定配信中!
