@@ -137,8 +137,8 @@
       </div>
       <div class="content03">
         <div class="inner">
-          <h2 class="second-font"><span class="box">本番</span>で出せる<br>パフォーマンスは<br>
-            <span class="underline2">メンタル</span>の状態に<br>とても大きく左右されます
+          <h2><span class="box">本番</span>で出せる<br>パフォーマンスは<br>
+            <span class="underline2">メンタルの状態</span>に<br>とても大きく左右されます
           </h2>
           <p class="p1">つまり、</p>
           <p class="p2"><span class="box-w">不安</span>や<span class="box-w">緊張</span>が<br>集中力を妨げ<br>
@@ -162,7 +162,7 @@
             decoding="async" class="k04" />
         </div>
         <div class="bg-bk">
-          <p class="p5 second-font center line-gr">ご存知ですか？</p>
+          <p class="p5 second-font center">ご存知ですか？</p>
           <h3 class="second-font center">
             <span class="f30">超集中状態</span> <span class="f26">(ゾーン)は</span><br>
             <span class="highlight">自分で</span>
@@ -178,12 +178,12 @@
       </div>
       <div class="content05">
         <div class="inner content05__inner">
-          <h3 class="second-font center line-gr">コーチってどんな人？</h3>
+          <h3 class="second-font center line-gr2">コーチってどんな人？</h3>
           <div class="k6">
             <img src="assets/img/k06.png" alt="古徳大輔メンタルコーチ" width="331" height="378" loading="lazy"
               decoding="async" class="" />
           </div>
-          <div class="content05__name underline-bk">古徳大輔<span>メンタルコーチ</span></div>
+          <div class="content05__name underline-bk">古徳大輔<span>&nbsp;メンタルコーチ</span></div>
           <div class="content05__block">
             <p>トレーナーとして10年以上活躍</p>
             <p>選手として25年以上のキャリア</p>
@@ -224,21 +224,15 @@
             <p class="p1 second-font underline-bk">1回60分の完全マンツーマン</p>
             <h3 class="second-font">メンタルコーチング<br>
               セッション</h3>
-            <div class="step__item">
+            <div class="step__item step__item01">
               <div class="step__item-num">
                 <img src="assets/img/step01.png" alt="step01" width="88" height="27" loading="lazy"
                   decoding="async" class="" />
               </div>
               <p class="step__item-title second-font">達成したい成果を明確に設定</p>
-              <div class="step__item-flex">
-                <p class="step__item-text text01">短期的な目標から<br>
-                  長期的なビジョンまで<br>
-                  僕が実現まで導きます！</p>
-                <div class="step__item-img">
-                  <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
-                    decoding="async" class="" />
-                </div>
-              </div>
+              <p class="step__item-text text01">短期的な目標から<br>
+                長期的なビジョンまで<br>
+                僕が実現まで導きます！</p>
             </div>
             <div class="step__item step__item02">
               <div class="step__item-num">
@@ -247,15 +241,10 @@
               </div>
               <p class="step__item-title second-font">現状と理想の状態を把握し<br>
                 課題点を洗い出していく</p>
-              <div class="step__item-flex">
-                <p class="step__item-text text02">自分の思考パターンや<br>
-                  感情の動きがしっかり分かる<br>ので、新たな気づきに<br>
-                  ハッとするでしょう！</p>
-                <div class="step__item-img">
-                  <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
-                    decoding="async" class="" />
-                </div>
-              </div>
+
+              <p class="step__item-text text02">自分の思考パターンや<br>
+                感情の動きがしっかり分かる<br>ので、新たな気づきに<br>
+                ハッとするでしょう！</p>
             </div>
             <div class="step__item step__item03">
               <div class="step__item-num">
@@ -278,22 +267,16 @@
                   </ul>
                 </div>
               </div>
-              <div class="step__item-flex">
-                <p class="step__item-text text03">｢気合で頑張れ！｣<br>
-                  ｢集中しろ！｣ <br>
-                  ｢自信を持て！｣では、<br>
-                  結果が中々出せないことが<br>
-                  あります。<br>
-                  自分の心と成果への繋がりを<br>論理的に理解することが重要<br>です！</p>
-                <div class="step__item-img">
-                  <img src="assets/img/k10.png" alt="古徳大輔コーチ" width="126" height="131" loading="lazy"
-                    decoding="async" class="" />
-                </div>
-              </div>
+              <p class="step__item-text text03">｢気合で頑張れ！｣<br>
+                ｢集中しろ！｣ <br>
+                ｢自信を持て！｣では、<br>
+                結果が中々出せないことが<br>
+                あります。<br>
+                自分の心と成果への繋がりを<br>論理的に理解することが重要<br>です！</p>
             </div>
           </div>
-          <p class="step__text second-font center"><span>さらに</span><br>セッションだけじゃない！</p>
         </div>
+        <p class="step__text second-font center"><span>さらに</span><br>セッションだけじゃない！</p>
       </section>
       <section class="support">
         <div class="support__inner">
@@ -358,22 +341,22 @@
             <div class="features__item">
               <div class="features__item-num second-font">1</div>
               <h3 class="second-font"><span>最短3ヶ月〜成果を実感</span><br>ゾーンに導く専門メソッド</h3>
-              <p>一般的なコーチングとは異なり、「本番での超集中状態（ゾーン）を作り出すこと」に特化した独自のメソッドを採用。<br>
+              <p class="p1">一般的なコーチングとは異なり、「本番での超集中状態（ゾーン）を作り出すこと」に特化した独自のメソッドを採用。<br>
                 集中的なトレーニングにより、短期間で心の状態に変化が現れ、実際の競技で成果を実感できます。</p>
             </div>
             <div class="features__item features__item02">
               <div class="features__item-num second-font">2</div>
               <div class="box-gr">ゾーンメンタルコーチングだけ！</div>
               <h3><span>メンタルスコア測定で</span><br>効果を見える化</h3>
-                        <img src="assets/img/k16.png" alt="" width="377" height="330" loading="lazy"
-                  decoding="async" class="k16" />
-                      <p>一般的なコーチングとは異なり、「本番での超集中状態（ゾーン）を作り出すこと」に特化した独自のメソッドを採用。<br>
+              <img src="assets/img/k16.png" alt="" width="377" height="330" loading="lazy"
+                decoding="async" class="k16" />
+              <p class="p2">一般的なコーチングとは異なり、「本番での超集中状態（ゾーン）を作り出すこと」に特化した独自のメソッドを採用。<br>
                 集中的なトレーニングにより、短期間で心の状態に変化が現れ、実際の競技で成果を実感できます。</p>
             </div>
             <div class="features__item features__item03">
               <div class="features__item-num second-font">3</div>
               <h3><span>イメージトレーニングで</span><br>思考のクセを改善</h3>
-              <p>目標を達成した瞬間や成功した場面をリアルにイメージするトレーニングを行います。 これまでの物事の見方、捉え方、習慣的な思考や心の反応を理解し見直すことで、競技中の冷静さと自信を高めます。</p>
+              <p class="p3">目標を達成した瞬間や成功した場面をリアルにイメージするトレーニングを行います。 これまでの物事の見方、捉え方、習慣的な思考や心の反応を理解し見直すことで、競技中の冷静さと自信を高めます。</p>
             </div>
           </div>
         </div>
@@ -628,7 +611,7 @@
                     <img src="assets/img/icon-hito.png" alt="" width="40" height="52" loading="lazy"
                       decoding="async" class="" />
                   </div>
-                  <div class="voice__title">精神的に落ち着いて物事を考えられるようになった！</div>
+                  <div class="voice__title">精神的に落ち着いて物事を<br>考えられるようになった！</div>
                 </div>
                 <div class="voice__contents">
                   <h3>サポートを受ける前の悩み</h3>
@@ -655,7 +638,7 @@
                 </div>
               </div>
               <div class="voice__item">
-                <div>
+                <div class="voice__item-img">
                   <img src="assets/img/voice07.png" alt="空手 / 親子（子15歳）、萩本海様・雅治様" width="387" height="269" loading="lazy"
                     decoding="async" class="" />
                 </div>
@@ -664,7 +647,7 @@
                     <img src="assets/img/icon-hito.png" alt="" width="40" height="52" loading="lazy"
                       decoding="async" class="" />
                   </div>
-                  <div class="voice__title">どうやって勝ちに繋げるかのビジョンが見えました！</div>
+                  <div class="voice__title">どうやって勝ちに繋げるか<br>のビジョンが見えました！</div>
                 </div>
                 <div class="voice__contents">
                   <h3>サポートを受ける前の悩み</h3>
@@ -828,7 +811,7 @@
           <div class="message">MESSAGE
           </div>
           <!-- 動画 -->
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1066810544?h=b10b232425&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ゾーンメンタルコーチングの特徴"></iframe></div>
+          <div class="video" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1066810544?h=b10b232425&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ゾーンメンタルコーチングの特徴"></iframe></div>
           <script src="https://player.vimeo.com/api/player.js"></script>
           <div class="message__title second-font">自分を信じ、<br>
             最高のパフォーマンスを</div>
@@ -931,8 +914,8 @@
               <img src="assets/img/icon-line.png" class="cta__line" alt="line" width="59" height="56"
                 decoding="async" loading="lazy" />
               <div class="cta__line-text">
-              メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法<br>
-              <span>LINE登録者限定配信中!</span>
+                メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法<br>
+                <span>LINE登録者限定配信中!</span>
               </div>
             </a>
           </div>

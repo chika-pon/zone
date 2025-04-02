@@ -26,7 +26,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400;500;600;700;800;900&family=en+Kaku+Gothic+New:wght@300;400;500;700;900&family=Shippori+Mincho+B1:wght@600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400;500;600;700;800;900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&family=Shippori+Mincho+B1:wght@600;700;800&display=swap"
     rel="stylesheet">
 
   <!-- Splide -->

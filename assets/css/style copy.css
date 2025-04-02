@@ -596,10 +596,21 @@ ul {
 }
 
 .underline2 {
-  text-decoration: underline double;
+  text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
+
+.underline2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px; /* 下線からの距離（線の太さ+余白） */
+  height: 1px; /* 2本目の線の太さ */
+  background-color: currentColor; /* テキストと同じ色 */
+}
+
 
 .line-gr::after {
   content: "";

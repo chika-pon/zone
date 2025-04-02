@@ -126,7 +126,7 @@
       pagination: false, // ページネーションを非表示
       drag: false, // ドラッグ無効
       fixedWidth: "16rem", // スライドの幅
-      gap: 12, // スライド間の余白
+      gap: "-1rem",// スライド間の余白
       autoScroll: {
         speed: 0.5, // スマホ時は遅くする
         pauseOnHover: false, // カーソルが乗ってもスクロールを停止させない
