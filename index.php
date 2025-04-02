@@ -13,27 +13,27 @@
     <!-- bz-pc__contentはデバイスの高さによって縮小される -->
     <div class="bz-pc__content">
       <div class="bz-pc__box">
-        <div>
+        <div class="pc-tokuten__img">
           <img src="assets/img/pc-tokuten.png" alt="3大特典プレゼント" width="323" height="186" loading="lazy"
             decoding="async" class="" />
         </div>
-        <div class="tokuten__items">
-          <div class="tokuten__item tokuten__item1">
-            <div class="title">フィードバックシート</div>
+        <div class="pc__items">
+          <div class="pc__item tokuten__item1">
+            <div class="pc__item-title">フィードバックシート</div>
             <p>体験セッションでの内容をコーチが分析し、具体的なアドバイスをフィードバックすることで自己理解が深まります。</p>
           </div>
-          <div class="tokuten__item tokuten__item2">
-            <div class="title">ゾーンに入る5つのステップ</div>
+          <div class="pc__item tokuten__item2">
+            <div class="pc__item-title">ゾーンに入る5つのステップ</div>
             <p>すぐに実践できる具体的なゾーンメンタルの知恵をまとめた資料です。</p>
           </div>
-          <div class="tokuten__item tokuten__item3">
-            <div class="title">試合・練習前の<br>
+          <div class="pc__item tokuten__item3">
+            <div class="pc__item-title">試合・練習前の<br>
               メンタルルーチン集</div>
             <p>パフォーマンスを最大限に発揮するための「心の準備」をサポートするためのガイドです。</p>
           </div>
         </div>
-        <div class="cta01_cta cta">
-          <p class="second-font cta__text cta__text-pc">\&nbsp;まずは<span class="highlight"><span class="number">&nbsp;60</span>分&nbsp;</span>で超集中状態を体感&nbsp;/</p>
+        <div class="cta01_cta cta pc-cta">
+          <p class="second-font cta__text cta__text-pc">\&nbsp;まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感&nbsp;/</p>
           <a href="contact.php" class="cta__button01">
             <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
               decoding="async" loading="lazy" />
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="bz-fv__cta cta">
-            <p class="cta__text second-font">\&nbsp;まずは<span class="highlight"><span class="number">&nbsp;60</span>分&nbsp;</span>で超集中状態を体感&nbsp;/</p>
+            <p class="cta__text second-font">\&nbsp;まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感&nbsp;/</p>
             <a href="contact.php" class="cta__button">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
@@ -157,9 +157,9 @@
           <p class="p2 second-font">ゾーンメンタルコーチング！</p>
           <h2>超集中状態</h2>
           <p class="p3 second-font">を作ることで</p>
-          <p class="p4 second-font"><span class="underline- bk">ハイパフォーマンス</span>へ導く</p>
+          <p class="p4 second-font"><span class="underline-bk">ハイパフォーマンス</span>へ導く</p>
           <img src="assets/img/k04.png" alt="超集中状態のメンタルづくりで力を出し切る" width="414" height="478" loading="lazy"
-            decoding="async" class="" />
+            decoding="async" class="k04" />
         </div>
         <div class="bg-bk">
           <p class="p5 second-font center line-gr">ご存知ですか？</p>
@@ -298,7 +298,7 @@
       <section class="support">
         <div class="support__inner">
           <h2 class="second-font"><span class="small">アスリートとしての成功を支える</span><br>
-            ゾーンコーチングだけの
+            ゾーンコーチングだけの<br>
             <span class="gr">特別サポート</span>
           </h2>
           <div class="support__items">
@@ -329,7 +329,7 @@
               class="support__item">
               <div class="support__item-block">
                 <h3 class="second-font h3-3">トレーニング・食事相談</h3>
-                <p>パーソナルトレーナーとしても多くの実績を持つコーチが、実践に基づく効果的なトレーニング方法や、減量・増量に適した食事プランについてアドバイスします。</p>
+                <p class="p3">パーソナルトレーナーとしても多くの実績を持つコーチが、実践に基づく効果的なトレーニング方法や、減量・増量に適した食事プランについてアドバイスします。</p>
                 <div class="k14">
                   <img src="assets/img/k14.png" alt="" width="308" height="148" loading="lazy"
                     decoding="async" class="" />
@@ -401,7 +401,7 @@
             </div>
           </div>
           <div class="cta01_cta cta">
-            <p class="second-font cta__text cta__text-white">\&nbsp;まずは<span class="highlight"><span class="number">&nbsp;60</span>分&nbsp;</span>で超集中状態を体感&nbsp;/</p>
+            <p class="second-font cta__text cta__text-white">\&nbsp;まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感&nbsp;/</p>
             <a href="contact.php" class="cta__button01">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
@@ -454,6 +454,7 @@
                 <p>なにかに悩んでどうしたらいいのかわからない方へ沢山の経験のもとコーチングで導いてくれます。<br>
                   <span>古徳コーチに頼れば間違いないです！</span>
                 </p>
+                <span class="tokumei">※匿名希望のため写真はイメージです</span>
               </div>
             </div>
             <div class="voice__item">
@@ -887,7 +888,7 @@
         </div>
       </section>
       <!-- 3大特典 -->
-      <section class="tokuten">
+      <section class="tokuten tokuten02">
         <div class="tokuten__inner">
           <div class="tokuten__img">
             <img src="assets/img/tokuten.png" alt="3大特典プレゼント" width="" height="" loading="lazy"
@@ -909,7 +910,7 @@
             </div>
           </div>
           <div class="cta01_cta cta">
-            <p class="second-font cta__text cta__text-white">\&nbsp;まずは<span class="highlight"><span class="number">&nbsp;60</span>分&nbsp;</span>で超集中状態を体感&nbsp;/</p>
+            <p class="second-font cta__text cta__text-white">\&nbsp;まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感&nbsp;/</p>
             <a href="contact.php" class="cta__button01">
               <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
                 decoding="async" loading="lazy" />
@@ -922,7 +923,7 @@
         <div class="inner">
           <h2 class="line__title center underline">LINE友だち限定</h2>
           <div class="line__img">
-            <img src="assets/img/line.png" alt="" width="" height="" loading="lazy"
+            <img src="assets/img/line__img.png" alt="" width="" height="" loading="lazy"
               decoding="async" class="" />
           </div>
           <div class="cta02_cta cta">

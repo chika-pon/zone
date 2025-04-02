@@ -40,27 +40,27 @@ require 'header.php';
     <!-- bz-pc__contentはデバイスの高さによって縮小される -->
     <div class="bz-pc__content">
       <div class="bz-pc__box">
-        <div>
+        <div class="pc-tokuten__img">
           <img src="assets/img/pc-tokuten.png" alt="3大特典プレゼント" width="323" height="186" loading="lazy"
             decoding="async" class="" />
         </div>
-        <div class="tokuten__items">
-          <div class="tokuten__item tokuten__item1">
-            <div class="title">フィードバックシート</div>
+        <div class="pc__items">
+          <div class="pc__item tokuten__item1">
+            <div class="pc__item-title">フィードバックシート</div>
             <p>体験セッションでの内容をコーチが分析し、具体的なアドバイスをフィードバックすることで自己理解が深まります。</p>
           </div>
-          <div class="tokuten__item tokuten__item2">
-            <div class="title">ゾーンに入る5つのステップ</div>
+          <div class="pc__item tokuten__item2">
+            <div class="pc__item-title">ゾーンに入る5つのステップ</div>
             <p>すぐに実践できる具体的なゾーンメンタルの知恵をまとめた資料です。</p>
           </div>
-          <div class="tokuten__item tokuten__item3">
-            <div class="title">試合・練習前の<br>
+          <div class="pc__item tokuten__item3">
+            <div class="pc__item-title">試合・練習前の<br>
               メンタルルーチン集</div>
             <p>パフォーマンスを最大限に発揮するための「心の準備」をサポートするためのガイドです。</p>
           </div>
         </div>
-        <div class="cta01_cta cta">
-          <p class="second-font cta__text cta__text-pc">\ まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感 /</p>
+        <div class="cta01_cta cta pc-cta">
+          <p class="second-font cta__text cta__text-pc">\&nbsp;まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感&nbsp;/</p>
           <a href="contact.php" class="cta__button01">
             <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
               decoding="async" loading="lazy" />
@@ -131,7 +131,7 @@ require 'header.php';
                 <!-- 電話番号 -->
                 <div class="c-form-item">
                   <div class="c-form-item__ttl">
-                    <p>お電話番号</p>
+                    <p>電話番号</p>
                     <span class="required">必須</span>
                   </div>
                   <input type="tel" class="c-input" name="phone" placeholder="090-123-4567"
@@ -167,19 +167,26 @@ require 'header.php';
                   <div class="c-form-item__label-wrap">
                     <div class="c-form-item__label-wrap-inner">
                       <div class="c-select">
-                        <input type="date" class="c-input c-input--flex" name="kibouday1" id="datePicker1" min=""
-                          required>
+                        <input type="text" class="c-input c-input--flex" name="kibouday1" placeholder="ご希望の日程" id="datePicker1" required>
                       </div>
                     </div>
                     <div class="c-form-item__label-wrap-inner">
                       <div class="c-form-item__select c-select">
                         <select name="kiboutime1" required class="c-input c-input--flex">
+                          <option value="" disabled selected>ご希望の時間</option>
+                          <option value="9:00">9:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                          <option value="13:00">13:00</option>
                           <option value="14:00">14:00</option>
                           <option value="15:00">15:00</option>
                           <option value="16:00">16:00</option>
                           <option value="17:00">17:00</option>
                           <option value="18:00">18:00</option>
                           <option value="19:00">19:00</option>
+                          <option value="20:00">20:00</option>
+                          <option value="21:00">21:00</option>
                         </select>
                       </div>
                     </div>
@@ -197,19 +204,26 @@ require 'header.php';
                   <div class="c-form-item__label-wrap">
                     <div class="c-form-item__label-wrap-inner">
                       <div class="c-select">
-                        <input type="date" class="c-input c-input--flex" name="kibouday2" id="datePicker2" min=""
-                          required>
+                      <input type="text" class="c-input c-input--flex" name="kibouday2" id="datePicker2" placeholder="ご希望の日程" required>
                       </div>
                     </div>
                     <div class="c-form-item__label-wrap-inner">
                       <div class="c-form-item__celect c-select">
                         <select name="kiboutime2" required class="c-input c-input--flex">
+                          <option value="" disabled selected>ご希望の時間</option>
+                          <option value="9:00">9:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                          <option value="13:00">13:00</option>
                           <option value="14:00">14:00</option>
                           <option value="15:00">15:00</option>
                           <option value="16:00">16:00</option>
                           <option value="17:00">17:00</option>
                           <option value="18:00">18:00</option>
                           <option value="19:00">19:00</option>
+                          <option value="20:00">20:00</option>
+                          <option value="21:00">21:00</option>
                         </select>
                       </div>
                     </div>
@@ -220,8 +234,8 @@ require 'header.php';
                 <div class="bz-contact__form-item bz-contact__form-item--02 c-form-item">
                   <div class="c-form-item">
                     <div class="c-form-item__ttl c-form-item__ttl--02">
-                      <span class="required">必須</span>
                       <p>ご予約動機</p>
+                      <span class="required">必須</span>
                     </div>
                     <textarea class="c-input c-message" maxlength="256" name="message"
                       placeholder="記入例）サッカー部の高１です。本番で緊張しすぎてチームの足を引っ張ってしまっています。体験セッション希望です。"
@@ -244,7 +258,7 @@ require 'header.php';
     </main>
 
     <!-- フッター -->
-    <footer class="bz-footer">
+    <footer class="bz-footer contact-footer">
       <div class="bz-footer__inner">
         <div class="bz-footer__wrap">
           <div class="bz-footer__link">
@@ -329,6 +343,34 @@ require 'header.php';
       input.setAttribute('min', minDate);
     });
   });
+
+  // placeholderのカスタマイズ
+  document.addEventListener("DOMContentLoaded", function () {
+    const dateInputs = [
+        document.getElementById("datePicker1"),
+        document.getElementById("datePicker2")
+    ]; // datePicker1 と datePicker2 の要素を取得
+
+    dateInputs.forEach(dateInput => {
+        // フォーカス時に type を "date" に変更
+        dateInput.addEventListener("focus", function () {
+            if (this.type === "text") {
+                this.type = "date"; // カレンダー表示に変更
+                this.value = ""; // 初期値をリセットして年/月/日表示を消す
+            }
+        });
+
+        // フォーカスが外れる時に空なら "text" に戻す
+        dateInput.addEventListener("blur", function () {
+            if (!this.value) {
+                this.type = "text"; // 入力がなければ "text" に戻す
+                this.placeholder = "ご希望の日程"; // プレースホルダを戻す
+            }
+        });
+    });
+});
+
+
 </script>
 
 <?php require 'footer.php'; ?>

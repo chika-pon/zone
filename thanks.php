@@ -12,27 +12,27 @@
     <!-- bz-pc__contentはデバイスの高さによって縮小される -->
     <div class="bz-pc__content">
       <div class="bz-pc__box">
-               <div>
+        <div class="pc-tokuten__img">
           <img src="assets/img/pc-tokuten.png" alt="3大特典プレゼント" width="323" height="186" loading="lazy"
             decoding="async" class="" />
         </div>
-        <div class="tokuten__items">
-          <div class="tokuten__item tokuten__item1">
-            <div class="title">フィードバックシート</div>
+        <div class="pc__items">
+          <div class="pc__item tokuten__item1">
+            <div class="pc__item-title">フィードバックシート</div>
             <p>体験セッションでの内容をコーチが分析し、具体的なアドバイスをフィードバックすることで自己理解が深まります。</p>
           </div>
-          <div class="tokuten__item tokuten__item2">
-            <div class="title">ゾーンに入る5つのステップ</div>
+          <div class="pc__item tokuten__item2">
+            <div class="pc__item-title">ゾーンに入る5つのステップ</div>
             <p>すぐに実践できる具体的なゾーンメンタルの知恵をまとめた資料です。</p>
           </div>
-          <div class="tokuten__item tokuten__item3">
-            <div class="title">試合・練習前の<br>
+          <div class="pc__item tokuten__item3">
+            <div class="pc__item-title">試合・練習前の<br>
               メンタルルーチン集</div>
             <p>パフォーマンスを最大限に発揮するための「心の準備」をサポートするためのガイドです。</p>
           </div>
         </div>
-        <div class="cta01_cta cta">
-          <p class="second-font cta__text cta__text-pc">\ まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感 /</p>
+        <div class="cta01_cta cta pc-cta">
+          <p class="second-font cta__text cta__text-pc">\&nbsp;まずは<span class="highlight"><span class="number">60</span>分</span>で超集中状態を体感&nbsp;/</p>
           <a href="contact.php" class="cta__button01">
             <img src="assets/img/cta-button01.png" class="cta__entry" alt="無料体験セッションを受ける" width="368" height="96"
               decoding="async" loading="lazy" />
@@ -41,7 +41,6 @@
       </div>
     </div>
   </div>
-
   <!-- SP部分 -->
   <div class="bz-page bz-thanks-page">
     <main class="bz-main">
@@ -74,8 +73,8 @@
               <img src="assets/img/icon-line.png" class="cta__line" alt="line" width="59" height="56"   
               decoding="async" loading="lazy" />
                 <div class="cta__line-text cta__thanks-text">
-                  <span>メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法</span><br>
-                  LINE登録者限定配信中!
+                メンタルを鍛えるスキルと<br>ゾーンに入り成果を出す方法<br>
+                <span>LINE登録者限定配信中!</span>
                 </div>
               </a>
             </div>

@@ -331,7 +331,6 @@ a {
     justify-content: center;
     padding-inline: 20px;
   }
-
   .bz-page {
     margin-left: calc(100 / 1040 * 100%);
   }
@@ -341,7 +340,6 @@ a {
   .bz {
     padding-inline: 20px;
   }
-
   .bz-page {
     margin-left: 16vw;
   }
@@ -414,7 +412,9 @@ a {
   z-index: 9;
 }
 
-.pc__items {}
+.pc__items {
+
+}
 
 .pc-tokuten__img {
   width: 93%;
@@ -422,7 +422,6 @@ a {
 
 .pc__item+.pc__item {
   margin-top: 10px;
-  margin-top: 0.625rem;
 }
 
 .pc__item {
@@ -430,17 +429,13 @@ a {
   background-color: #fff;
   border-radius: 0.625rem;
   padding-block: 19px;
-  padding-block: 1.1875rem;
   padding-inline: 56px 22px;
-  padding-inline: 3.5rem 1.375rem;
   width: 92.6%;
   box-shadow: 0 0 11.9px rgba(127, 127, 127, 0.13);
 }
-
-.pc__item-title {
+.pc__item-title{
   color: #478856;
   font-size: 17px;
-  font-size: 1.0625rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 150%;
@@ -448,9 +443,7 @@ a {
 
 .pc__item p {
   margin-top: 5px;
-  margin-top: 0.3125rem;
   font-size: 11px;
-  font-size: 0.6875rem;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 170%;
@@ -464,7 +457,6 @@ a {
   aspect-ratio: 57/71;
   width: 17%;
 }
-
 .pc-cta {
   width: 91%;
 }
@@ -480,13 +472,10 @@ a {
     width: calc(344 / 1680 * 100%);
     /* max-width: 500px; */
     min-width: 344px;
-    min-width: 21.5rem;
-
   }
 
   .bz-page {
     max-width: 637px;
-    /* max-width: 39.8125rem; */
     flex: 1;
     border-inline: 8px solid #fff;
     box-shadow: 5px 0 4px rgba(0, 0, 0, 0.07);
@@ -553,8 +542,8 @@ ul {
 
 /* CTA */
 .cta01_cta {
-  /* margin-top: -10px;
-  margin-top: -0.625rem; */
+  margin-top: -10px;
+  margin-top: -0.625rem;
 }
 
 .cta__text {
@@ -573,12 +562,11 @@ ul {
 .cta__text-white {
   color: #fff;
   padding-bottom: 20px;
-  padding-bottom: 1.25rem;
 }
 
 .cta__text-pc {
   font-size: 15.17px;
-  font-size: 0.9375rem;
+  /* font-size: 1.115rem; */
   font-weight: 700;
   line-height: calc(22/15);
   letter-spacing: 0.05em;
@@ -653,7 +641,7 @@ ul {
 
 .bz-fv__cta {
   margin-top: 21px;
-  margin-top: 1.3125rem;
+  /* margin-top: 1.549375rem; */
 }
 
 @media (any-hover: hover) {
@@ -808,9 +796,9 @@ ul {
 
 .content01 .p2 {
   margin-block: 20px 11px;
-  margin-block: 1.25rem 0.6875rem;
+  /* margin-block: 1.25rem 0.6875rem; */
   padding-block: 14px;
-  padding-bottom: 0.875rem;
+  /* padding-bottom: 1.125rem; */
   background-color: #232826;
   font-size: 15px;
   font-size: 0.937rem;
@@ -823,13 +811,11 @@ ul {
 /* content02 */
 .content02 {
   margin-top: 35px;
-  margin-top: 2.1875rem;
 }
 
 .content02 h2 {
   font-style: italic;
   font-size: 29px;
-  font-size: 1.8125rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 160%;
@@ -846,9 +832,7 @@ ul {
 
 .content02 .p1 {
   margin-top: 42px;
-  margin-top: 2.625rem;
   font-size: 24.41px;
-  font-size: 1.525rem;
   font-weight: 700;
   line-height: 180%;
   letter-spacing: 0.3rem;
@@ -856,20 +840,18 @@ ul {
 
 .content02__items {
   margin-top: 32px;
-  margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 13px;
   row-gap: 30px;
-  row-gap: 1.875rem;
   padding-inline: 22px;
-  padding-inline: 1.375rrem;
 }
+
+.content02__list {}
 
 .content02__list .content02__item {
   margin-top: 14px;
-  margin-top: 0.875rem;
 }
 
 .content02__list-title {
@@ -904,7 +886,6 @@ ul {
   border: 2px solid #6BAD4F;
   border-radius: 0 0 0.625rem 0.625rem;
   padding-block: 14px 16px;
-  padding-block: 0.875rem 1rem;
   color: #fff;
   font-weight: 700;
   text-align: center;
@@ -919,9 +900,7 @@ ul {
 /* content03 */
 .content03 {
   margin-top: 65px;
-  margin-top: 4.0625rem;
   padding-top: 50px;
-  padding-top: 3.125rem;
   background: url(../../assets/img/bg01.png)center / contain no-repeat;
   aspect-ratio: 414/983;
 }
@@ -929,9 +908,7 @@ ul {
 .content03 h2,
 .content03 p {
   margin-left: 14px;
-  margin-left: 0.875rem;
   font-size: 28px;
-  font-size: 1.75rem;
   letter-spacing: 0.03em;
   line-height: 167%;
   font-weight: 700;
@@ -939,44 +916,36 @@ ul {
 
 .content03 h2 .box {
   font-size: 34px;
-  font-size: 2.125rem;
   font-family: 'Shippori Mincho B1', serif;
   font-weight: 700;
   color: #131313;
   border: 1px solid #313131;
   padding-inline: 5px;
-  padding-inline: 0.312rem;
 }
 
 
 .content03 .p1 {
   margin-top: 33px;
-  margin-top: 2.0625rem;
 }
 
 .content03 .p2 {
   margin-top: 41px;
-  margin-top: 2.5625rem;
-
 }
 
 .content03 .p2 .box-w {
   color: #262626;
   background-color: #fff;
   padding-inline: 7px 11px;
-  padding-inline: 0.437px 0.687px;
 }
 
 .k3 {
   margin-top: 30px;
-  margin-top: 1.875rem;
   width: 96%;
 }
 
 /* content04 */
 .content04 {
   margin-top: 35px;
-  margin-top: 2.1875rem;
 }
 
 .content04__block {
@@ -988,11 +957,9 @@ ul {
 .content04 h2 {
   position: relative;
   margin-top: 59px;
-  margin-top: 3.6875rem;
   display: inline-block;
   font-family: 'Shippori Mincho B1', serif;
   font-size: 49px;
-  font-size: 3.0625rem;
   letter-spacing: 0.025em;
   line-height: 150%;
   font-weight: 600;
@@ -1013,11 +980,6 @@ ul {
   left: -15px;
   width: 20px;
   height: 20px;
-  bottom: -0.9375rem;
-  left: -0.9375rem;
-  width: 1.25rem;
-  height: 1.25rem;
-
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
 }
@@ -1029,16 +991,12 @@ ul {
   right: -15px;
   width: 20px;
   height: 20px;
-  bottom: -0.9375rem;
-  width: 1.25rem;
-  height: 1.25rem;
   border-top: 2px solid #000;
   border-right: 2px solid #000;
 }
 
 .content04 .p1 {
   font-size: 24px;
-  font-size: 1.5rem;
   letter-spacing: 0.01em;
   line-height: 150%;
   font-weight: 700;
@@ -1046,7 +1004,6 @@ ul {
 
 .content04 .p2 {
   font-size: 22px;
-  font-size: 1.375rem;
   letter-spacing: 0.01em;
   line-height: 150%;
   font-weight: 700;
@@ -1054,9 +1011,7 @@ ul {
 
 .content04 .p3 {
   margin-top: 55px;
-  margin-top: 3.4375rem;
   font-size: 24px;
-font-size: 1.5rem;
   letter-spacing: 0.02em;
   line-height: 150%;
   font-weight: 700;
@@ -1064,7 +1019,6 @@ font-size: 1.5rem;
 
 .content04 .p4 {
   font-size: 26px;
-  font-size: 1.625rem;
   letter-spacing: 0.01em;
   line-height: 240%;
   font-weight: 700;
@@ -1072,7 +1026,6 @@ font-size: 1.5rem;
 
 .k04 {
   margin-top: -30px;
-  margin-top: -1.875rem;
 }
 
 .bg-bk {
@@ -1082,22 +1035,18 @@ font-size: 1.5rem;
 .content04 .p5 {
   margin-top: -1px;
   position: relative;
-  color: #fff;
   padding-top: 79px;
-  padding-top: 4.9375rem;
+  color: #fff;
   font-size: 35px;
-  font-size: 2.1875rem;
   letter-spacing: 0.2em;
   line-height: 130%;
   font-weight: 700;
 }
 
 .content04 h3 {
-  color: #fff;
   margin-top: 83px;
-  margin-top: 5.1875rem;
+  color: #fff;
   font-size: 34px;
-font-size: 2.125rem;
   letter-spacing: 0.06em;
   line-height: 140%;
   font-weight: 700;
@@ -1105,12 +1054,10 @@ font-size: 2.125rem;
 
 .content04 h3 .f30 {
   font-size: 30px;
-  font-size: 1.875rem;
 }
 
 .content04 h3 .f26 {
   font-size: 26px;
-  font-size: 1.625rem;
 }
 
 .content04 h3 .highlight {
@@ -1119,19 +1066,15 @@ font-size: 2.125rem;
 
 .k5 {
   margin-top: 33px;
-  margin-top: 2.0625rem;
 }
 
 .content04 .p6 {
   margin-top: 22px;
-  margin-top: 1.375rem;
   padding: 14px 17px 13px 25px;
-padding: 0.875rem 1.0625rem 0.8125rem 1.5625rem;
   width: 75%;
   margin-inline: auto;
   color: #fff;
   font-size: 13px;
-  font-size: 0.8125rem;
   letter-spacing: 0.17em;
   line-height: 170%;
   background-color: rgba(40, 44, 38, 0.2);
@@ -1140,17 +1083,12 @@ padding: 0.875rem 1.0625rem 0.8125rem 1.5625rem;
 
 .content04 .p7 {
   margin-top: -9px;
-  margin-top: -0.5625rem;
   position: relative;
   padding-block: 86px 67px;
-  padding-block: 5.375rem 4.1875rem;
   padding-inline: 42px;
-  padding-inline: 2.625rem;
-  font-size: 17px;
-font-size: 1.0625rem;
-
   margin-inline: auto;
   color: #fff;
+  font-size: 17px;
   letter-spacing: 0.14em;
   line-height: 230%;
   font-weight: 700;
@@ -1184,46 +1122,36 @@ font-size: 1.0625rem;
 /* content05 */
 .content05 {
   margin-top: -36px;
-  margin-top: -2.25rem;
   padding-top: 90px;
-padding-top: 5.625rem;
-
   background: url(../../assets/img/bg03.png) center / contain no-repeat;
   aspect-ratio: 414 / 1521;
 }
 
 .content05__inner {
   padding-inline: 24px 34px;
-  padding-inline: 1.5rem 2.125rem;
 }
 
 .content05 h3 {
   position: relative;
   font-style: italic;
   font-size: 23px;
-  font-size: 1.4375rem;
   line-height: 130%;
   font-weight: 700;
 }
 
 .k6 {
   padding-top: 14px;
-  padding-top: 0.875rem;
 }
 
 .content05__name {
   padding-left: 17px;
-  padding-left: 1.0625rem;
   margin-top: 23px;
-margin-top: 1.4375rem;
   font-family: 'Shippori Mincho B1', serif;
   font-size: 21px;
-  font-size: 1.3125rem;
   letter-spacing: 0.13em;
   line-height: 130%;
   font-weight: 700;
   padding-right: 8px;
-  padding-right: 0.5rem;
 }
 
 .content05__name span {
@@ -1234,16 +1162,12 @@ margin-top: 1.4375rem;
 
 .content05__block {
   padding-top: 27px;
-  padding-top: 1.6875rem;
   padding-left: 43px;
-padding-left: 2.6875rem;
-
 }
 
 .content05__block p {
   position: relative;
   font-size: 14px;
-  font-size: 0.875rem;
   letter-spacing: 0.14em;
   line-height: 130%;
   font-weight: 700;
@@ -1256,7 +1180,6 @@ padding-left: 2.6875rem;
   background: url(../../assets/img/icon-check.png)center / contain no-repeat;
   aspect-ratio: 16/16;
   max-width: 16px;
-  max-width: 1rem;
   width: 6%;
   top: 50%;
   transform: translateY(-50%);
@@ -1266,27 +1189,19 @@ padding-left: 2.6875rem;
 
 .content05__block p:not(:first-child) {
   padding-top: 8px;
-  padding-top: 0.5rem;
 }
 
 .k07 {
   margin-top: 38px;
-  margin-top: 2.375rem;
   margin-left: 14px;
-margin-left: 0.875rem;
-
 }
 
 .content05__list {
   margin-top: 30px;
-  margin-top: 1.875rem;
   margin-left: 10px;
-  margin-left: 0.625rem;
   padding: 26px 11px 24px 24px;
-  padding: 1.625rem 0.6875rem 1.5rem 1.5rem;
   background-color: #fff;
   font-size: 14px;
-  font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 180%;
@@ -1295,10 +1210,8 @@ margin-left: 0.875rem;
 .content05__list li {
   position: relative;
   padding-left: 24px;
-padding-left: 1.5rem; /* 6px (dot) + 9px (space) + margin */
-text-indent: -9px;
-text-indent: -0.5625rem;
-
+  /* 6px (dot) + 9px (space) + margin */
+  text-indent: -9px;
   /* 2行目以降のインデント */
 }
 
@@ -1316,16 +1229,12 @@ text-indent: -0.5625rem;
 
 .content05__list li:not(:first-child) {
   margin-top: 8px;
-  margin-top: 0.5rem;
 }
 
 .content05 .p1 {
   margin-top: 34px;
-margin-top: 2.125rem;
-color: #027F3C;
-font-size: 14px;
-font-size: 0.875rem;
-
+  color: #027F3C;
+  font-size: 14px;
   letter-spacing: 0.04em;
   line-height: 150%;
   font-weight: 700;
@@ -1333,18 +1242,15 @@ font-size: 0.875rem;
 
 .k8 {
   margin-top: 8px;
-  margin-top: 0.5rem;
 }
 
 /* content06 */
 .content06 {
   padding-top: 40px;
-  padding-top: 2.5rem;
 }
 
 .content06__q {
   font-size: 51px;
-font-size: 3.1875rem;
   letter-spacing: 0.2em;
   line-height: 150%;
 }
@@ -1352,7 +1258,6 @@ font-size: 3.1875rem;
 .content06 h3 {
   position: relative;
   font-size: 24px;
-  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.26em;
   line-height: 150%;
@@ -1372,7 +1277,6 @@ font-size: 3.1875rem;
 
 .k9 {
   padding-top: 80px;
-padding-top: 5rem;
   margin-inline: auto;
   width: 82%;
 }
@@ -1380,18 +1284,14 @@ padding-top: 5rem;
 /* 基本ステップ */
 .step {
   margin-top: 70px;
-margin-top: 4.375rem;
-
 }
 
 .step__inner {
   padding-inline: 15px;
-  padding-inline: 0.9375rem;
 }
 
 .step .p1 {
   font-size: 23px;
-  font-size: 1,4375rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 150%;
@@ -1401,7 +1301,6 @@ margin-top: 4.375rem;
   font-style: italic;
   color: #55AB72;
   font-size: 43px;
-font-size: 2.6875rem;
   font-weight: 900;
   letter-spacing: 0.2em;
   line-height: 175%;
@@ -1409,18 +1308,14 @@ font-size: 2.6875rem;
 
 .step__items {
   margin-top: 24px;
-  margin-top: 1.5rem;
   background: url(../../assets/img/bg01-02.png) center / contain no-repeat;
   aspect-ratio: 384 / 1507;
   padding-inline: 20px;
-  padding-inline: 1.25rem;
 }
 
 .step__items .p1 {
   padding-top: 41px;
-padding-top: 2.5625rem;
-font-size: 16px;
-font-size: 1rem;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.3em;
   line-height: 130%;
@@ -1428,9 +1323,7 @@ font-size: 1rem;
 
 .step__items h3 {
   padding-top: 16px;
-  padding-top: 1rem;
   font-size: 30.41px;
-font-size: 1.901rem;
   font-weight: 900;
   line-height: 150%;
 }
@@ -1439,40 +1332,31 @@ font-size: 1.901rem;
   position: relative;
   margin-inline: auto;
   padding-top: 16px;
-  padding-top: 1rem;
   padding-left: 20px;
-padding-left: 1.25rem;
   background-color: #fff;
   border-radius: 0.625rem;
 }
 
-..text01 {
+.text01 {
   padding-bottom: 37px;
-  padding-bottom: 2.3125rem;
 }
 
 .text02 {
   padding-bottom: 18px;
-  padding-bottom: 1.125rem;
 }
 
 .text03 {
   padding-top: 20px;
   padding-bottom: 21px;
-  padding-top: 1.25rem;
-  padding-bottom: 1.3125rem;
 }
 
 .step__item02 {
   margin-top: 49px;
-  margin-top: 3.0625rem;
 }
 
 .step__item03 {
   margin-top: 55px;
-  margin-top: 3.4375rem;
 }
-
 
 .step__item02,
 .step__item03 {
@@ -1486,12 +1370,11 @@ padding-left: 1.25rem;
   left: 50%;
   transform: translateX(-50%);
   border-left: 18px solid transparent;
-border-left: 1.125rem solid transparent;
-border-right: 18px solid transparent;
-border-right: 1.125rem solid transparent;
-border-top: 18px solid #fff;
-border-top: 1.125rem solid #fff;
-
+  /* 左側 */
+  border-right: 18px solid transparent;
+  /* 右側 */
+  border-top: 18px solid #fff;
+  /* 白い三角形 */
 }
 
 .step__item03::before {
@@ -1501,12 +1384,10 @@ border-top: 1.125rem solid #fff;
   left: 50%;
   transform: translateX(-50%);
   border-left: 18px solid transparent;
-border-left: 1.125rem solid transparent;
-border-right: 18px solid transparent;
-border-right: 1.125rem solid transparent;
-border-top: 18px solid #fff;
-border-top: 1.125rem solid #fff;
-
+  /* 左側 */
+  border-right: 18px solid transparent;
+  /* 右側 */
+  border-top: 18px solid #fff;
 }
 
 
@@ -1518,7 +1399,6 @@ border-top: 1.125rem solid #fff;
 .step__item-title {
   position: relative;
   margin-top: 8px;
-  margin-top: 0.5rem;
   font-size: 17px;
   font-size: 1.0625rem;
   font-weight: 700;
@@ -1545,7 +1425,6 @@ border-top: 1.125rem solid #fff;
 
 .step__item-text {
   font-size: 14px;
-  font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 0.06em;
   line-height: 160%;
@@ -1558,43 +1437,32 @@ border-top: 1.125rem solid #fff;
 .step03__item {
   background-color: #E5F6EB;
   border-radius: 10px;
-  border-radius: 0.625rem;
 }
 
 .step03__item-block {
   padding-block: 16px 20px;
-  padding-block: 1rem 1.25rem;
   padding-inline: 22px;
-  padding-inline: 1.375rem;
   margin-top: 20px;
-  margin-top: 1.25rem;
-  
 }
 
 .step03__item-title {
   font-size: 14px;
-  font-size: 0.875rem;
   font-weight: 700;
   line-height: 150%;
 }
 
 .step03__item-block ul {
   margin-top: 13px;
-  margin-top: 0.8125rem;
 }
 
 .step03__item-block ul li {
   position: relative;
   margin-top: 14px;
-margin-top: 0.875rem;
-font-size: 13px;
-font-size: 0.8125rem;
-
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.09em;
   line-height: 130%;
   padding-left: 18px;
-  padding-left: 1.125rem;
 }
 
 .step03__item-block ul li::after {
@@ -1608,9 +1476,7 @@ font-size: 0.8125rem;
 
 .step03__item-block ul li p {
   padding-top: 7px;
-padding-top: 0.4375rem;
-font-size: 13px;
-font-size: 0.8125rem;
+  font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.06em;
   line-height: 160%
@@ -1618,9 +1484,7 @@ font-size: 0.8125rem;
 
 .step__text {
   margin-top: 50px;
-margin-top: 3.125rem;
-font-size: 27px;
-font-size: 1.6875rem;
+  font-size: 27px;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 150%;
@@ -1634,21 +1498,17 @@ font-size: 1.6875rem;
 /* support */
 .support {
   margin-top: 56px;
-  margin-top: 3.5rem;
   background-color: #282C26;
 }
 
 .support__inner {
   padding-inline: 28px;
-  padding-inline: 1.75rem;
 }
 
 .support h2 {
   padding-top: 50px;
-  padding-top: 3.125rem;
   color: #fff;
   font-size: 30.13px;
-  font-size: 1.883rem;
   font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 160%;
@@ -1657,7 +1517,6 @@ font-size: 1.6875rem;
 .support h2 .small {
   font-style: italic;
   font-size: 19.53px;
-  font-size: 1.221rem;
   font-weight: 400;
   letter-spacing: 0.05em;
   line-height: 130%;
@@ -1665,7 +1524,6 @@ font-size: 1.6875rem;
 
 .support h2 .gr {
   font-size: 40.74px;
-  font-size: 2.546rem;
   color: #027F54;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -1674,39 +1532,31 @@ font-size: 1.6875rem;
 
 .support__items {
   margin-top: 41px;
-  margin-top: 2.563rem;
   padding-bottom: 46.63px;
-  padding-bottom: 2.914rem;
 }
-
 
 .support__item {
   background-color: #27AF54;
   border-radius: 10px;
-  border-radius: 0.625rem;
 }
 
 .support__item+.support__item {
   margin-top: 20px;
-  margin-top: 1.25rem;
 }
 
 .support__item-block {
   padding-top: 10px;
-  padding-top: 0.625rem;
   padding-inline: 26px;
-  padding-inline: 1.625rem;
 }
 
 .support__item-block02 {
   padding-top: 18px;
-  padding-top: 1.125rem;
+
 }
 
 .support__item h3 {
   color: #fff;
   font-size: 32px;
-  font-size: 2rem;
   font-weight: 900;
   letter-spacing: 0.04em;
   line-height: 130%;
@@ -1715,19 +1565,14 @@ font-size: 1.6875rem;
 .support__item .h3-3 {
   color: #fff;
   padding-top: 16px;
-padding-top: 1rem;
-font-size: 26px;
-font-size: 1.625rem;
-
+  font-size: 26px;
   font-weight: 700;
 }
 
 .support__item-block .p1 {
   margin-top: 8px;
-margin-top: 0.5rem;
-color: #fff;
-font-size: 16px;
-font-size: 1rem;
+  color: #fff;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 240%;
@@ -1738,19 +1583,14 @@ font-size: 1rem;
   letter-spacing: 0.05em;
   background-color: #fff;
   padding-block: 8px;
-padding-block: 0.5rem;
-padding-inline: 8px;
-padding-inline: 0.5rem;
-margin-right: 3px;
-margin-right: 0.1875rem;
+  padding-inline: 8px;
+  margin-right: 3px;
 }
 
 .support__item-block .p2 {
   margin-top: 8px;
-margin-top: 0.5rem;
-color: #fff;
-font-size: 15px;
-font-size: 0.9375rem;
+  color: #fff;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.06em;
   line-height: 160%;
@@ -1758,10 +1598,8 @@ font-size: 0.9375rem;
 
 .support__item-block .p3 {
   margin-top: 12px;
-margin-top: 0.75rem;
-color: #fff;
-font-size: 15px;
-font-size: 0.9375rem;
+  color: #fff;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.06em;
   line-height: 160%;
@@ -1775,18 +1613,13 @@ font-size: 0.9375rem;
 
 .k13 {
   margin-top: 16px;
-  margin-top: 1rem;
   padding-bottom: 27.61px;
-  padding-bottom: 1.725625rem;
 }
 
 .k14 {
   margin-top: 26px;
-  margin-top: 1.625rem;
   padding-bottom: 25.37px;
-  padding-bottom: 1.585625rem;
 }
-
 
 .k14 img {
   border-radius: 0.625rem;
@@ -1795,32 +1628,26 @@ font-size: 0.9375rem;
 /* content07 */
 .content07 {
   padding-top: 73px;
-padding-top: 4.5625rem;
-padding-bottom: 52px;
-padding-bottom: 3.25rem;
+  padding-bottom: 52px;
   background-color: #E7F7EB;
 }
 
 .content07__inner {
   padding-inline: 23px;
-  padding-inline: 1.4375rem;
 }
 
 .content07 h2 {
   color: #2A9C4F;
   font-size: 35px;
-  font-size: 2.1875rem;
   font-weight: 700;
   letter-spacing: 0.16em;
   line-height: 120%;
 }
 
-
 .content07 h2 span {
   font-style: italic;
   color: #303030;
   font-size: 24px;
-  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 260%;
@@ -1828,7 +1655,6 @@ padding-bottom: 3.25rem;
 
 .k15 {
   margin-top: 28px;
-  margin-top: 1.75rem;
 }
 
 /* features */
@@ -1836,11 +1662,8 @@ padding-bottom: 3.25rem;
   overflow-x: hidden;
   position: relative;
   padding-top: 54px;
-  padding-top: 3.375rem;
   padding-bottom: 7px;
-  padding-bottom: 0.4375rem;
 }
-
 
 .features::before {
   position: absolute;
@@ -1868,13 +1691,11 @@ padding-bottom: 3.25rem;
 
 .features__inner {
   padding-inline: 37px;
-padding-inline: 2.3125rem;
 }
 
 .features h2 {
   color: #2A9C4F;
   font-size: 55px;
-font-size: 3.4375rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 100%;
@@ -1883,39 +1704,30 @@ font-size: 3.4375rem;
 .features h2 .small {
   font-style: italic;
   font-size: 23px;
-  font-size: 1.4375rem;
   font-weight: 700;
 }
 
 .features h2 .num {
   font-size: 68.2px;
-  font-size: 4.2625rem;
   font-weight: 700;
 }
 
 .features__items {
   margin-top: 60px;
-  margin-top: 3.75rem;
   padding-bottom: 101px;
-  padding-bottom: 6.3125rem;
 }
-
 
 .features__item02 {
   margin-top: 63px;
-  margin-top: 3.9375rem;
 }
 
 .features__item03 {
   margin-top: 57px;
-  margin-top: 3.5625rem;
 }
 
 .features__item-num {
   padding-left: 12px;
-  padding-left: 0.75rem;
   font-size: 34px;
-  font-size: 2.125rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 150%;
@@ -1926,9 +1738,7 @@ font-size: 3.4375rem;
 
 .features__item h3 {
   margin-top: 4px;
-margin-top: 0.25rem;
-font-size: 27px;
-font-size: 1.6875rem;
+  font-size: 27px;
   font-weight: 700;
   letter-spacing: normal;
   line-height: 150%;
@@ -1936,15 +1746,12 @@ font-size: 1.6875rem;
 
 .features__item h3 span {
   font-size: 20px;
-  font-size: 1.25rem;
   letter-spacing: 0.04em;
 }
 
 .features__item p {
   margin-top: 13px;
-margin-top: 0.8125rem;
-font-size: 15px;
-font-size: 0.9375rem;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.04em;
   line-height: 190%;
@@ -1952,51 +1759,38 @@ font-size: 0.9375rem;
 
 .box-gr {
   margin-top: 11px;
-margin-top: 0.6875rem;
-margin-left: 4px;
-margin-left: 0.25rem;
-margin-bottom: -6px;
-margin-bottom: -0.375rem;
-padding: 7px 10px 8px 6px;
-padding: 0.4375rem 0.625rem 0.5rem 0.375rem;
-background-color: #2A9C4F;
-border-radius: 0.125rem;
-border-radius: 0.0625rem;
-color: #fff;
-font-size: 18px;
-font-size: 1.125rem;
-font-weight: 500;
-letter-spacing: 0.04em;
-line-height: 87%;
-width: fit-content;
+  margin-left: 4px;
+  margin-bottom: -6px;
+  padding: 7px 10px 8px 6px;
+  background-color: #2A9C4F;
+  border-radius: 0.125rem;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 87%;
+  width: fit-content;
 }
 
 .k16 {
   aspect-ratio: 377/330;
-  aspect-ratio: 1.141;
   margin-bottom: 50px;
-  margin-bottom: 3.125rem;
 }
 
 /* 3大特典 */
 .tokuten {
   padding-top: 19px;
-  padding-top: 1.1875rem;
   padding-bottom: 16px;
-  padding-bottom: 1rem;
   background-color: #346845;
 }
 
 .tokuten02 {
   padding-bottom: 28px;
-  padding-bottom: 1.75rem;
 }
 
 .tokuten__inner {
   padding-inline: 27px;
-  padding-inline: 1.6875rem;
 }
-
 
 .tokuten__img {
   aspect-ratio: 341/221;
@@ -2007,39 +1801,31 @@ width: fit-content;
 .tokuten .p1 {
   color: #fff;
   font-size: 22px;
-  font-size: 1.375rem;
   font-weight: 700;
+  /* letter-spacing: 0.04em; */
   line-height: 140%;
 }
 
 .tokuten__items {
   margin-top: -7px;
-  margin-top: -0.4375rem;
   padding-bottom: 27.59px;
-  padding-bottom: 1.724375rem;
 }
-
 
 .tokuten__item {
   position: relative;
   background-color: #fff;
   border-radius: 0.625rem;
   padding-block: 19px;
-padding-block: 1.1875rem;
-padding-inline: 56px 22px;
-padding-inline: 3.5rem 1.375rem;
-
+  padding-inline: 56px 22px;
 }
 
 .tokuten__item+.tokuten__item {
   margin-top: 16px;
-  margin-top: 1rem;
 }
 
 .tokuten__item .title {
   color: #478856;
   font-size: 20px;
-  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 160%;
@@ -2047,9 +1833,8 @@ padding-inline: 3.5rem 1.375rem;
 
 .tokuten__item p {
   margin-top: 5px;
-margin-top: 0.3125rem;
-font-size: 14px;
-font-size: 0.875rem;
+  /* color:#478856; */
+  font-size: 14px;
   /* font-weight: 700; */
   letter-spacing: 0.04em;
   line-height: 170%;
@@ -2062,7 +1847,6 @@ font-size: 0.875rem;
   left: -5%;
   aspect-ratio: 68/84;
   max-width: 68px;
-  max-width: 4.25rem;
   width: 16vw;
 }
 
@@ -2080,14 +1864,10 @@ font-size: 0.875rem;
 
 /* サポート選手の声 */
 .voice {
-  overflow-x: hidden;
   position: relative;
   background-color: rgba(212, 236, 211, 0.4);
   padding-top: 50px;
-padding-top: 3.125rem;
-padding-bottom: 60px;
-padding-bottom: 3.75rem;
-
+  padding-bottom: 60px;
 }
 
 .voice::before {
@@ -2096,7 +1876,6 @@ padding-bottom: 3.75rem;
   background: url(../../assets/img/circle04.png)center / contain no-repeat;
   aspect-ratio: 192/262;
   max-width: 192px;
-max-width: 12rem;
   width: 46vw;
   top: -20%;
   right: -20%;
@@ -2104,13 +1883,11 @@ max-width: 12rem;
 
 .voice__inner {
   padding-inline: 22px 21px;
-padding-inline: 1.375rem 1.3125rem;
 }
 
 .voice h2 {
   position: relative;
   font-size: 40px;
-  font-size: 2.5rem;
   font-weight: 700;
   line-height: 150%;
 }
@@ -2119,7 +1896,6 @@ padding-inline: 1.375rem 1.3125rem;
   font-style: italic;
   color: #272727;
   font-size: 22px;
-font-size: 1.375rem;
   font-weight: 700;
   line-height: 130%;
 }
@@ -2130,9 +1906,7 @@ font-size: 1.375rem;
   background: url(/assets/img/icon02.png)center / contain no-repeat;
   aspect-ratio: 67/65;
   width: 22%;
-  width: 1.375rem;
   top: -22px;
-  top: -1.375rem;
   right: 0;
 }
 
@@ -2149,15 +1923,13 @@ font-size: 1.375rem;
 
 .voice__items {
   margin-top: 81px;
-margin-top: 5.0625rem;
+
+
 }
 
 .voice__item+.voice__item {
   margin-top: 34px;
-margin-top: 2.125rem;
-padding-bottom: 40px;
-padding-bottom: 2.5rem;
-
+  padding-bottom: 40px;
 }
 
 .voice__item {
@@ -2165,13 +1937,10 @@ padding-bottom: 2.5rem;
   background-color: #fff;
   border-radius: 0.625rem;
   padding-inline: 16px;
-  padding-inline: 1rem;
 }
 
-.voice__item:not(:first-of-type) {
+.voice__item:not(:first-of-type)  {
   padding-bottom: 38px;
-  padding-bottom: 2.375rem;
-  
 }
 
 .voice__item-img {
@@ -2185,11 +1954,9 @@ padding-bottom: 2.5rem;
   display: flex;
   align-items: center;
   gap: 10px;
-  gap: 0.625rem;
   justify-content: center;
   margin-left: -3%;
   padding-top: 236px;
-  padding-top: 14.75rem;
 }
 
 .voice__flex-img {
@@ -2199,10 +1966,8 @@ padding-bottom: 2.5rem;
 
 .voice__title {
   padding-top: 14px;
-padding-top: 0.875rem;
-font-family: "Zen Kaku Gothic New", sans-serif;
-font-size: 21px;
-font-size: 1.3125rem;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 21px;
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 150%;
@@ -2216,38 +1981,30 @@ font-size: 1.3125rem;
 .tokumei {
   display: block;
   font-size: 10px;
-  font-size: 0.625rem;
   font-weight: 400;
   letter-spacing: 0.07em;
   line-height: 170%;
   text-align: end;
   padding-top: 14px;
-padding-top: 0.875rem;
-padding-bottom: 10px;
-padding-bottom: 0.625rem;
+  padding-bottom: 10px;
 }
 
 .voice__contents h3 {
   padding-top: 15px;
-padding-top: 0.9375rem;
-color: #fff;
-font-size: 18px;
-font-size: 1.125rem;
-font-weight: 700;
-letter-spacing: 0.08em;
-line-height: 140%;
-background-color: #139E40;
-border-radius: 0.125rem;
-padding: 5px 11px;
-padding: 0.3125rem 0.6875rem;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 140%;
+  background-color: #139E40;
+  border-radius: 0.125rem;
+  padding: 5px 11px;
 }
 
 .voice__contents p {
   padding-top: 11px;
-padding-top: 0.6875rem;
-padding-left: 1.4%;
-font-size: 14px;
-font-size: 0.875rem;
+  padding-left: 1.4%;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.07em;
   line-height: 170%;
@@ -2255,13 +2012,10 @@ font-size: 0.875rem;
 
 .voice__button {
   margin-top: 35px;
-margin-top: 2.1875rem;
-position: relative;
-padding: 15px 58px;
-padding: 0.9375rem 3.625rem;
-color: #fff;
-font-size: 16px;
-font-size: 1rem;
+  position: relative;
+  padding: 15px 58px;
+  color: #fff;
+  font-size: 16px;
   letter-spacing: 0.14em;
   line-height: 140%;
   border: 1px solid #139E40;
@@ -2275,7 +2029,6 @@ font-size: 1rem;
   content: "+";
   color: #fff;
   font-size: 36px;
-font-size: 2.25rem;
   font-weight: 300;
   top: 50%;
   transform: translateY(-50%);
@@ -2293,22 +2046,18 @@ font-size: 2.25rem;
 /* コーチ紹介 */
 .coach {
   padding-top: 46px;
-  padding-top: 2.875rem;
   padding-bottom: 14px;
-  padding-bottom: 0.875rem;
   background: linear-gradient(to right, #299C4F 0%, #5ED184 100%);
 }
 
 .coach__inner {
   padding-inline: 16px 14px;
-  padding-inline: 1rem 0.875rem;
 }
 
 .coach h2 {
   font-style: italic;
   color: #fff;
   font-size: 28px;
-  font-size: 1.75rem;
   font-weight: 700;
   letter-spacing: 0.07em;
   line-height: 170%;
@@ -2316,22 +2065,18 @@ font-size: 2.25rem;
 
 .coach__img {
   margin-top: 26px;
-  margin-top: 1.625rem;
 }
 
 .coach__img img {
   border-radius: 45px;
-  border-radius: 2.8125rem;
 }
 
 .coach__info {
   margin-top: 9px;
-  margin-top: 0.5625rem;
-  font-size: 32px;
-  font-size: 2rem;
   margin-left: 2%;
   color: #fff;
-    letter-spacing: 0.09em;
+  font-size: 32px;
+  letter-spacing: 0.09em;
   line-height: 130%;
 }
 
@@ -2340,7 +2085,6 @@ font-size: 2.25rem;
   font-style: italic;
   color: #fff;
   font-size: 20px;
-  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   line-height: 130%;
@@ -2350,7 +2094,6 @@ font-size: 2.25rem;
   font-style: italic;
   color: rgba(255, 255, 255, 0.32);
   font-size: 18px;
-  font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   line-height: 140%;
@@ -2361,24 +2104,20 @@ font-size: 2.25rem;
   margin-left: 3%;
   color: #fff;
   font-size: 16px;
-  font-size: 1rem;
   letter-spacing: 0.03em;
   line-height: 150%;
 }
 
 .cards {
   margin-top: 20px;
-margin-top: 1.25rem;
-border-radius: 10px;
-border-radius: 0.625rem;
-background-color: #fff;
-padding: 24px 32px 23px 22px;
-padding: 1.5rem 2rem 1.4375rem 1.375rem;
+  border-radius: 10px;
+  border-radius: 0.625rem;
+  background-color: #fff;
+  padding: 24px 32px 23px 22px;
 }
 
 .card:not(:first-of-type) {
   margin-top: 26px;
-  margin-top: 1.625rem;
 }
 
 
@@ -2415,12 +2154,12 @@ padding: 1.5rem 2rem 1.4375rem 1.375rem;
 
 .card__content {
   margin-top: 18px;
-  margin-top: 1.125rem;
+  /* margin-top: 0.5625rem; */
 }
 
 .card__text {
   font-size: 14px;
-  font-size: 0.875rem;
+  /* font-size: 0.9375rem; */
   line-height: calc(24 / 15);
   letter-spacing: 0.01em;
   text-align: justify;
@@ -2433,13 +2172,10 @@ padding: 1.5rem 2rem 1.4375rem 1.375rem;
   color: #fff;
   background-color: #1D1D1D;
   font-size: 12.12px;
-  font-size: 0.75rem;
   line-height: 150%;
   /* font-weight: 700; */
   padding: 1px 2px 1px 3px;
-  padding: 0.0625rem 0.125rem 0.0625rem 0.1875rem;
   border-radius: 2.6px;
-border-radius: 0.1625rem;
   box-shadow: 1px 2px 4px rgba(59, 59, 59, 0.25);
 }
 
@@ -2468,11 +2204,9 @@ border-radius: 0.1625rem;
   margin-left: 2.5%;
   position: relative;
   margin-top: 38px;
-  margin-top: 2.375rem;
   color: rgba(255, 255, 255, 0.3);
   font-family: 'Shippori Mincho B1', serif;
   font-size: 29px;
-  font-size: 1.8125rem;
   letter-spacing: 0.1em;
   line-height: 130%;
 }
@@ -2482,9 +2216,7 @@ border-radius: 0.1625rem;
   content: "";
   background-color: rgba(255, 255, 255, 0.3);
   width: 180px;
-  width: 11.25rem;
   height: 1px;
-  height: 0.0625rem;
   top: 50%;
   transform: translateY(-50%);
   right: 0;
@@ -2492,11 +2224,9 @@ border-radius: 0.1625rem;
 
 .message__title {
   margin-top: 24px;
-  margin-top: 1.5rem;
   margin-left: 3%;
   color: #fff;
   font-size: 27px;
-  font-size: 1.6875rem;
   font-weight: 700;
   letter-spacing: 0.07em;
   line-height: 160%;
@@ -2504,7 +2234,6 @@ border-radius: 0.1625rem;
 
 .message__contents {
   margin-top: 17px;
-  margin-top: 1.0625rem;
   margin-left: 3%;
   margin-right: 2%;
 }
@@ -2512,12 +2241,10 @@ border-radius: 0.1625rem;
 .message__contents p {
   color: #fff;
   font-size: 14px;
-  font-size: 0.875rem;
   font-weight: 300;
   letter-spacing: 0.06em;
   line-height: 170%;
   padding-bottom: 23px;
-  padding-bottom: 1.4375rem;
 }
 
 .message__head {
@@ -2525,7 +2252,6 @@ border-radius: 0.1625rem;
   margin-left: 2%;
   color: #fff;
   font-size: 19px;
-  font-size: 1.1875rem;
   font-weight: 700;
   letter-spacing: 0.07em;
   line-height: 150%;
@@ -2534,7 +2260,7 @@ border-radius: 0.1625rem;
 /* よくあるご質問 */
 .faq {
   padding: 36px 0 83px;
-  padding: 2.25rem 0 5.1875rem;
+  /* padding: 3.4375rem 0 3.5625rem; */
 }
 
 .faq__inner {
@@ -2547,7 +2273,7 @@ border-radius: 0.1625rem;
 .faq__title {
   font-style: italic;
   font-size: 34px;
-  font-size: 2.125rem;
+  /* font-size: 2.3125rem; */
   font-weight: 700;
   line-height: 130%;
   letter-spacing: 0.03em;
@@ -2555,13 +2281,13 @@ border-radius: 0.1625rem;
 
 .faq__list {
   margin-top: 25px;
-  margin-top: 1.5625rem;
+  /* margin-top: 1.0625rem; */
 }
 
 .faq__item {
   position: relative;
   padding: 22px 29px 30px 36px;
-  padding: 1.375rem 1.8125rem 1.875rem 2.25rem;
+  /* padding: 1.5625rem 1.6875rem 2.125rem 1rem; */
   border-radius: 10px;
   border-radius: 0.625rem;
   background-color: #E7F7EB;
@@ -2569,7 +2295,7 @@ border-radius: 0.1625rem;
 
 .faq__item+.faq__item {
   margin-top: 23px;
-  margin-top: 1.4375rem;
+  /* margin-top: 0.6875rem; */
 }
 
 .faq__item::before {
@@ -2586,7 +2312,7 @@ border-radius: 0.1625rem;
 
 .faq__item-question {
   font-size: 17px;
-  font-size: 1.0625rem;
+  /* font-size: 1.125rem; */
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.08em;
@@ -2594,31 +2320,28 @@ border-radius: 0.1625rem;
 
 .faq__item-answer {
   font-size: 15px;
-  font-size: 0.9375rem;
+  /* font-size: 0.875rem; */
   line-height: calc(27/15);
   letter-spacing: 0.08em;
   margin-top: 14px;
-  margin-top: 0.875rem;
+  /* margin-top: 1.1875rem; */
 }
 
 /* LINE友達限定 */
 .line {
   margin-top: 46px;
-  margin-top: 2.875rem;
   padding-bottom: 38px;
-padding-bottom: 2.375rem;
   background-color: #303030;
   border-radius: 1.25rem;
 }
 
 .line__title {
   padding-top: 30px;
-  padding-top: 1.875rem;
   font-style: italic;
   color: #40BA72;
   margin-top: 30px;
   font-size: 30.18px;
-  font-size: 1.875rem;
+  /* font-size: 0.875rem; */
   font-weight: 500;
   line-height: 140%;
   letter-spacing: 0.04em;
@@ -2627,18 +2350,14 @@ padding-bottom: 2.375rem;
 .line__title.underline {
   text-decoration-color: #40BA72;
   text-decoration-thickness: 2px;
-  text-decoration-thickness: 0.125rem;
 }
 
 .line__img {
   margin-top: 21px;
-  margin-top: 1.3125rem;
-
 }
 
 .cta02_cta {
   margin-top: 23px;
-  margin-top: 1.4375rem;
   display: flex;
   justify-content: center;
 }
@@ -2646,7 +2365,6 @@ padding-bottom: 2.375rem;
 .cta__button02 {
   position: relative;
   padding: 15px 48px 22px 14px;
-  padding: 0.9375rem 3rem 1.375rem 0.875rem;
   display: flex;
   align-items: center;
   gap: 14.7px;
@@ -2658,12 +2376,10 @@ padding-bottom: 2.375rem;
   content: "";
   position: absolute;
   bottom: -6px;
-  bottom: 0.375rem;
   /* 下10pxに配置 */
   left: 0;
   width: 100%;
   height: 6px;
-  height: 0.375rem;
   background-color: #13A750;
   border-radius: 0 0 0.187rem 0.187rem;
   ;
@@ -2671,7 +2387,6 @@ padding-bottom: 2.375rem;
 
 .cta__line {
   max-width: 59.22px;
-  max-width: 3.70125rem;
   width: 19%;
 }
 
@@ -2679,7 +2394,7 @@ padding-bottom: 2.375rem;
   position: relative;
   color: #FFEB01;
   font-size: 21px;
-  font-size: 1.3125rem;
+  /* font-size: 0.875rem; */
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0.06em;
@@ -2689,7 +2404,7 @@ padding-bottom: 2.375rem;
 .cta__line-text {
   color: #fff;
   font-size: 15px;
-  font-size: 0.9375rem;
+  /* font-size: 0.875rem; */
   font-weight: 700;
   line-height: 140%;
 }
@@ -2698,13 +2413,9 @@ padding-bottom: 2.375rem;
   position: absolute;
   content: "";
   width: 10px;
-width: 0.625rem;
-height: 10px;
-height: 0.625rem;
-border-top: 2.3px solid #fff;
-border-top: 0.14375rem solid #fff;
-border-right: 2.3px solid #fff;
-border-right: 0.14375rem solid #fff;
+  height: 10px;
+  border-top: 2.3px solid #fff;
+  border-right: 2.3px solid #fff;
   top: 50%;
   transform: translateY(-50%) rotate(45deg);
   /* 45度回転させて ">" の形に */
@@ -2761,13 +2472,11 @@ border-right: 0.14375rem solid #fff;
 .contact {
   background-color: #55AB72;
   padding-block: 51px 35px;
-  padding-block: 3.1875rem 2.1875rem;
 }
-
 
 .contact__inner {
   padding: 51x 22px 35px;
-  padding: 3.1875rem 1.375rem 2.1875rem;
+  /* padding-inline: 1.375rem; */
 }
 
 .contact__box h1 {
@@ -2777,13 +2486,12 @@ border-right: 0.14375rem solid #fff;
 
 .contact__image {
   margin-top: 27px;
-  margin-top: 1.6875rem;
 }
 
 .contact__sub-title {
   margin-top: 6px;
   font-size: 25px;
-  font-size: 1.5625rem;
+  /* font-size: 1.25rem; */
   font-weight: 400;
   line-height: 170%;
   letter-spacing: 0.1em;
@@ -2792,7 +2500,7 @@ border-right: 0.14375rem solid #fff;
 
 .contact__title {
   font-size: 25px;
-  font-size: 1.2565rem;
+  /* font-size: 1.25rem; */
   font-weight: 700;
   line-height: 155%;
   letter-spacing: 0.1em;
@@ -2807,7 +2515,7 @@ border-right: 0.14375rem solid #fff;
   margin-top: 13px;
   margin-top: 0.8125rem;
   padding: 30px 26px 43px 27px;
-  padding: 1.875rem 1.625rem 2.6875rem 1.6875rem;
+  /* padding: 2.3125rem 2.1875rem 2.875rem 1.75rem; */
   border-radius: 10px;
   border-radius: 0.625rem;
   background-color: #fff;
@@ -2815,19 +2523,18 @@ border-right: 0.14375rem solid #fff;
 
 .bz-contact__form-body {
   margin-top: 45px;
-  margin-top: 2.8125rem;
 }
 
 .c-form-item+.c-form-item {
   margin-top: 18px;
-  margin-top: 1.125rem;
+  /* margin-top: 1.5625rem; */
 }
 
 .c-form-item__ttl {
   display: flex;
   align-items: center;
   column-gap: 11px;
-  column-gap: 0.6875rem;
+  /* column-gap: 0.4375rem; */
 }
 
 .c-form-item__ttl p {
@@ -2846,9 +2553,9 @@ border-right: 0.14375rem solid #fff;
   color: #fff;
   background-color: #ce0000;
   width: 51px;
-  width: 3.1875rem;
+  /* width: 2.3125rem; */
   height: 24px;
-  height: 1.5rem;
+  /* height: 1.125rem; */
   display: grid;
   place-items: center;
   border-radius: 2px;
@@ -2993,26 +2700,21 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   height: 57.5px;
   height: 3.59375rem;
 }
-
 /* プレースホルダーの色変更 */
 input[type="date"]::-webkit-input-placeholder {
-  color: #303030;
-  /* プレースホルダー文字色 */
+  color: #303030; /* プレースホルダー文字色 */
 }
 
 input[type="date"]::-moz-placeholder {
-  color: #303030;
-  /* Firefox */
+  color: #303030; /* Firefox */
 }
 
 input[type="date"]:-ms-input-placeholder {
-  color: #303030;
-  /* IE */
+  color: #303030; /* IE */
 }
 
 input[type="date"]::placeholder {
-  color: #303030;
-  /* 通常のプレースホルダー（クロスブラウザ対応） */
+  color: #303030; /* 通常のプレースホルダー（クロスブラウザ対応） */
 }
 
 .c-message {
@@ -3027,7 +2729,6 @@ input[type="date"]::placeholder {
 
 .bz-contact__form-btn {
   margin-top: 37px;
-  margin-top: 2.3125rem;
   text-align: center;
 }
 
@@ -3035,10 +2736,8 @@ input[type="date"]::placeholder {
   position: relative;
   display: inline-block;
   font-size: 21px;
-  font-size: 1.3125rem;
   /* width: 256px; */
   padding: 18px 48px 19px 41px;
-  padding: 1.125rem 3rem 1.1875rem 2.5625rem;
   background-color: #E14955;
   /* ボタンの色 */
   color: #fff;
@@ -3047,7 +2746,6 @@ input[type="date"]::placeholder {
   line-height: 130%;
   border: none;
   border-radius: 50px;
-  border-radius: 3.125rem;
   /* 角丸 */
   box-shadow: 0px 4px 1px rgb(176, 64, 73);
 }
@@ -3056,13 +2754,9 @@ input[type="date"]::placeholder {
   position: absolute;
   content: "";
   width: 10px;
-width: 0.625rem;
-height: 10px;
-height: 0.625rem;
-border-top: 2.3px solid #fff;
-border-top: 0.14375rem solid #fff;
-border-right: 2.3px solid #fff;
-border-right: 0.14375rem solid #fff;
+  height: 10px;
+  border-top: 2.3px solid #fff;
+  border-right: 2.3px solid #fff;
   top: 50%;
   transform: translateY(-50%) rotate(45deg);
   /* 45度回転させて ">" の形に */
@@ -3082,13 +2776,13 @@ border-right: 0.14375rem solid #fff;
 }
 
 .contact-footer {
-  padding-block: 1rem 7.25rem;
+  padding-block: 16px 116px;
 }
 
 .bz-footer__link a {
   color: #303030;
   font-size: 13px;
-  font-size: 0.8125rem;
+  /* font-size: 0.875rem; */
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: calc(26 /13);
@@ -3114,7 +2808,7 @@ border-right: 0.14375rem solid #fff;
 .bz-thanks {
   background-color: #55AB72;
   text-align: center;
-  padding: 2.9375rem 0 3.1875rem;
+  padding: 47px 0 51px;
   /* padding: 3.125rem 0 3.125rem; */
   height: auto;
   display: flex;
@@ -3133,7 +2827,7 @@ border-right: 0.14375rem solid #fff;
 
 .sp-logo {
   width: 243px;
-  width: 15.1875rem;
+  /* width: 12.5rem; */
 }
 
 
@@ -3158,7 +2852,6 @@ border-right: 0.14375rem solid #fff;
 
 .bz-thanks__title {
   padding-top: 90px;
-  padding-top: 5.625rem;
   color: #fff;
   font-size: 21px;
   /* font-size: 1.1875rem; */
@@ -3175,18 +2868,17 @@ border-right: 0.14375rem solid #fff;
   letter-spacing: 0.1em;
   line-height: calc(30/16);
   margin-top: 36px;
-  margin-top: 2.25rem;
+  /* margin-top: 1.875rem; */
   font-weight: 500;
 }
 
 .bz-thanks__box {
   position: relative;
   margin-top: 54px;
-  margin-top: 3.375rem;
   margin-inline: auto;
   width: 92%;
   padding: 33px 21px 30px;
-  padding: 2.0625rem 1.3125rem 1.875rem;
+  /* padding: 2.0625rem 1.3125rem 1.875rem; */
   background-color: #fff;
   border-radius: 10px;
 }
@@ -3206,7 +2898,7 @@ border-right: 0.14375rem solid #fff;
 .thanks-line__title {
   color: #363636;
   font-size: 18px;
-  font-size: 1.125rem;
+  /* font-size: 1rem; */
   font-weight: 700;
   letter-spacing: 0.24em;
   line-height: 155%;
@@ -3216,43 +2908,39 @@ border-right: 0.14375rem solid #fff;
 .thanks-line__text {
   color: #363636;
   font-size: 12px;
-  font-size: 0.75rem;
+  /* font-size: 1rem; */
   letter-spacing: 0.1em;
   line-height: 155%;
   margin-top: 14px;
-  margin-top: 0.875rem;
 }
 
 .thanks__button {
   padding: 15px 26px 21px 12px;
-  padding: 0.9375rem 1.625rem 1.3125rem 0.75rem;
 }
 
 .cta__thanks-text span {
   display: block;
-  padding-top: 4%;
+    padding-top: 4%;
   font-size: 18px;
-  font-size: 1.125rem;
+  /* font-size: 1rem; */
   letter-spacing: 0.08em;
   line-height: 100%;
-  text-align: start;
+  text-align:start;
 }
 
 .cta__thanks-text {
   font-size: 12px;
-  font-size: 0.75rem;
+  /* font-size: 1rem; */
   letter-spacing: 0;
   line-height: normal;
 }
 
 .bz-thanks__flex {
   margin-top: 30px;
-  margin-top: 1.875rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 17px;
-  gap: 1.0625rem;
 }
 
 .thanks__image {
@@ -3261,7 +2949,6 @@ border-right: 0.14375rem solid #fff;
 
 .bz-thanks__name {
   font-size: 12px;
-  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: calc(23/16);
@@ -3269,7 +2956,6 @@ border-right: 0.14375rem solid #fff;
 
 .bz-thanks__name span {
   font-size: 20px;
-  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   line-height: 130%;
