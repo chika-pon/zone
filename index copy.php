@@ -1,6 +1,5 @@
 <?php require 'header.php'; ?>
 
-
 <div class="bz">
   <img src="assets/img/pc-bg.png" alt="" class="pc-bg" />
   <h2 class="pc-logo__wrapper">
@@ -397,7 +396,7 @@
         <div class="voice__inner">
           <h2 class="second-font center"><span>本番で結果を出せた！</span><br>サポート選手の声</h2>
           <div class="voice__items">
-            <div class="voice__item voice__item01">
+            <div class="voice__item">
               <div class="voice__item-img">
                 <img src="assets/img/voice01.png" alt="空手、中学生、小林将人様" width="387" height="269" loading="lazy"
                   decoding="async" class="" />
@@ -441,7 +440,7 @@
                 <span class="tokumei">※匿名希望のため写真はイメージです</span>
               </div>
             </div>
-            <div class="voice__item voice__item02">
+            <div class="voice__item">
               <div class="voice__item-img">
                 <img src="assets/img/voice02.png" alt="レーシングドライバー、20代、今橋彩佳様" width="387" height="269" loading="lazy"
                   decoding="async" class="" />
@@ -479,7 +478,7 @@
                 </p>
               </div>
             </div>
-            <div class="voice__item voice__item03">
+            <div class="voice__item">
               <div class="voice__item-img">
                 <img src="assets/img/voice03.png" alt="プロ格闘家、20代、平山裕翔様" width="387" height="269" loading="lazy"
                   decoding="async" class="" />
@@ -521,7 +520,7 @@
                 </p>
               </div>
             </div>
-            <div class="voice__item voice__item04">
+            <div class="voice__item">
               <div class="voice__item-img">
                 <img src="assets/img/voice04.png" alt="モデル、20代、冨田七々海様" width="387" height="269" loading="lazy"
                   decoding="async" class="" />
@@ -564,7 +563,7 @@
         <section class="voice-hidden">
           <div class="voice__inner">
             <div class="voice__items">
-              <div class="voice__item voice__item05">
+              <div class="voice__item">
                 <div class="voice__item-img">
                   <img src="assets/img/voice05.png" alt="空手、高校生、小崎貴広様" width="387" height="269" loading="lazy"
                     decoding="async" class="" />
@@ -602,7 +601,7 @@
                     競技やこれからの人生のためにも是非受けてみて下さい!!</p>
                 </div>
               </div>
-              <div class="voice__item voice__item06">
+              <div class="voice__item">
                 <div class="voice__item-img">
                   <img src="assets/img/voice06.png" alt="プロゴルファー、20代、佐久間綾女様" width="387" height="269" loading="lazy"
                     decoding="async" class="" />
@@ -638,7 +637,7 @@
                   <p>考え方を変えるだけで<strong>競技パフォーマンスも変わる</strong>ので、ぜひ受けてみてください！</p>
                 </div>
               </div>
-              <div class="voice__item voice__item07">
+              <div class="voice__item">
                 <div class="voice__item-img">
                   <img src="assets/img/voice07.png" alt="空手 / 親子（子15歳）、萩本海様・雅治様" width="387" height="269" loading="lazy"
                     decoding="async" class="" />
@@ -795,6 +794,9 @@
                   そんな時に出会ったのが、スポーツ心理学とメンタルコーチングです。<br>
                   このとき、パフォーマンスを最大限に発揮するためには、フィジカル面だけでなく「”メンタル”と”環境”を整えること」がとても重要であることに気付かされました。</p>
                 <p class="card__text">
+                  この時期は敗戦が続き、メンタルも落ち込み、競技に楽しみを見出せなくなり、ただただ辛い日々でした。練習に復帰しても不安しかなく、ジムに行くことすら苦痛で、身体もまったく仕上がらないため、試合どころではありませんでした。</p>
+                </p>
+                <p class="card__text">
                   思い返してみれば結果が出ない時期は、楽しみよりも焦りや恐怖心でいっぱいの状態。
                   『”超”集中状態』が訪れたときは、”心の状態”と”環境”が自然に整い安定している状態で、試合にワクワクする気持ちで臨めていました。
                 </p>
@@ -841,7 +843,7 @@
                 料金はプランによって異なります。初回無料体験セッション後に、3ヶ月、6ヶ月、12ヶ月の各プランをご用意しています。詳細な料金については、無料セッションでご相談ください。
               </p>
             </li>
-            <li class="faq__item faq__item2">
+            <li class="faq__item">
               <h3 class="faq__item-question">
                 年齢制限はありますか？
               </h3>

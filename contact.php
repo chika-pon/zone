@@ -237,9 +237,9 @@ require 'header.php';
                       <p>ご予約動機</p>
                       <span class="required">必須</span>
                     </div>
-                    <textarea class="c-input c-message" maxlength="256" name="message"
-                      placeholder="記入例）サッカー部の高１です。本番で緊張しすぎてチームの足を引っ張ってしまっています。体験セッション希望です。"
-                      required data-id=""></textarea>
+                    <textarea class="c-input c-message" maxlength="256" name="message" placeholder="記入例）サッカー部の高１です。
+本番で緊張しすぎてチームの足を引っ張ってしまっています。
+体験セッション希望です。" required="" data-id=""></textarea>
                   </div>
                 </div>
 

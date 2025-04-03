@@ -7,20 +7,21 @@
   <meta name="description" content="ゾーンメンタルコーチング。超集中状態をつくり本番で結果を出す。マンツーマンのセッションで成果。指導実績500名以上。本気の人はやっている。">
   <title>ゾーンメンタルコーチング - マンツーマンセッションで超集中状態を実現</title>
   <meta name="keywords" content="ゾーンメンタルコーチング,マンツーマン,集中力,メンタル強化,パフォーマンス向上,コーチング">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- ファビコン -->
+  <link rel="icon" sizes="192x192" href="assets/img/favicon.png">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon.png" type="image/png" />
 
   <!-- og-image -->
+  <!-- 画像の用意がなければ設定しなくてよい -->
+  <?php /* ?>
   <?php
-  $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https://' : 'http://';
-  $host = $_SERVER['HTTP_HOST'];
-
-  // テスト環境と本番環境のOG画像パスを分岐
-  $og_image_path = (strpos($_SERVER['REQUEST_URI'], '/xxx/') === 0) ? '/xxx/assets/img/og-image.jpg' : '/assets/img/og-image.jpg';
-
-  // 最終的なOG画像のURL
-  $og_image_url = $protocol . $host . $og_image_path;
-  ?>
+        $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https://' : 'http://';
+        $host = $_SERVER['HTTP_HOST'];
+        $og_image_url = $protocol . $host . '/assets/img/og-image.jpg';
+        ?>
   <meta property="og:image" content="<?php echo htmlspecialchars($og_image_url, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php */ ?>
 
   <!-- Googleフォントを使用しないのであれば削除 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
